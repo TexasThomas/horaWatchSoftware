@@ -1,0 +1,16 @@
+Command: make -j 10 flash
+[1;31m
+A fatal error occurred: Could not open /dev/cu.usbserial-110, the port is busy or doesn't exist.
+([Errno 35] Could not exclusively lock port /dev/cu.usbserial-110: [Errno 35] Resource temporarily unavailable)
+[0m
+[31mCMake Error at /Users/markgrun/esp/esp-idf/components/esptool_py/run_serial_tool.cmake:67 (message):
+  
+  /Users/markgrun/.espressif/python_env/idf6.1_py3.14_env/bin/python;-m;esptool;--chip;esp32
+  failed.
+
+
+[0m
+make[3]: *** [flash] Error 1
+make[2]: *** [CMakeFiles/flash.dir/all] Error 2
+make[1]: *** [CMakeFiles/flash.dir/rule] Error 2
+make: *** [flash] Error 2
