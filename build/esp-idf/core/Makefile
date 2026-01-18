@@ -199,6 +199,54 @@ app.c.s:
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/app.c.s
 .PHONY : app.c.s
 
+app_state.obj: app_state.c.obj
+.PHONY : app_state.obj
+
+# target to build an object file
+app_state.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.obj
+.PHONY : app_state.c.obj
+
+app_state.i: app_state.c.i
+.PHONY : app_state.i
+
+# target to preprocess a source file
+app_state.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.i
+.PHONY : app_state.c.i
+
+app_state.s: app_state.c.s
+.PHONY : app_state.s
+
+# target to generate assembly for a file
+app_state.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.s
+.PHONY : app_state.c.s
+
+ui/ui_create.obj: ui/ui_create.c.obj
+.PHONY : ui/ui_create.obj
+
+# target to build an object file
+ui/ui_create.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.obj
+.PHONY : ui/ui_create.c.obj
+
+ui/ui_create.i: ui/ui_create.c.i
+.PHONY : ui/ui_create.i
+
+# target to preprocess a source file
+ui/ui_create.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.i
+.PHONY : ui/ui_create.c.i
+
+ui/ui_create.s: ui/ui_create.c.s
+.PHONY : ui/ui_create.s
+
+# target to generate assembly for a file
+ui/ui_create.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.s
+.PHONY : ui/ui_create.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,6 +263,12 @@ help:
 	@echo "... app.obj"
 	@echo "... app.i"
 	@echo "... app.s"
+	@echo "... app_state.obj"
+	@echo "... app_state.i"
+	@echo "... app_state.s"
+	@echo "... ui/ui_create.obj"
+	@echo "... ui/ui_create.i"
+	@echo "... ui/ui_create.s"
 .PHONY : help
 
 

@@ -66,6 +66,7 @@
 		"/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/esp_libc/src/port/cmake_install.cmake",
 		"/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/pthread/cmake_install.cmake",
 		"/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/cxx/cmake_install.cmake",
+		"/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/cmake_install.cmake",
 		"/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core/cmake_install.cmake",
 		"/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/bsp/cmake_install.cmake",
 		"/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/main/cmake_install.cmake"

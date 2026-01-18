@@ -477,6 +477,13 @@
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/cxx/CMakeFiles/install.dir
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/cxx/CMakeFiles/install/local.dir
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/cxx/CMakeFiles/install/strip.dir
+/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir
+/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/CMakeFiles/edit_cache.dir
+/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/CMakeFiles/rebuild_cache.dir
+/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/CMakeFiles/list_install_components.dir
+/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/CMakeFiles/install.dir
+/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/CMakeFiles/install/local.dir
+/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/CMakeFiles/install/strip.dir
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core/CMakeFiles/__idf_core.dir
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core/CMakeFiles/edit_cache.dir
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core/CMakeFiles/rebuild_cache.dir

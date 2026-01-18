@@ -1,4 +1,11 @@
 idf_component_register(
-    SRCS "app.c"
-    INCLUDE_DIRS "include"
+    SRCS
+        "app.c"
+        "app_state.c"
+        "ui/ui_create.c"
+    INCLUDE_DIRS
+        "include"
+        "ui"
+    REQUIRES
+        lvgl
 )

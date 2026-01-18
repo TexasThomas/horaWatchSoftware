@@ -1,0 +1,27 @@
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/drivers/wayland/lv_wl_shm_backend.c.obj: \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/drivers/wayland/lv_wl_shm_backend.c \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/drivers/wayland/lv_wayland_private.h \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/drivers/wayland/../../lv_conf_internal.h \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/drivers/wayland/../../lv_conf_kconfig.h \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/build/config/sdkconfig.h \
+ /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_attr.h \
+ /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /Users/markgrun/esp/esp-idf/components/esp_libc/platform_include/assert.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
+ /Users/markgrun/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/stdlib.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
+ /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h

@@ -79,7 +79,9 @@
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/esp_libc/libesp_libc.a
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/pthread/libpthread.a
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/cxx/libcxx.a
+/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/liblvgl.a
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core/libcore.a
+/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/liblvgl.a
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/bsp/libbsp.a
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/main/libmain.a
 /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core/libcore.a
