@@ -176,7 +176,9 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/freertos/libfreertos.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_libc/libesp_libc.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/pthread/libpthread.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/cxx/libcxx.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/lvgl/liblvgl.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/core/libcore.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/lvgl/liblvgl.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/bsp/libbsp.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/main/libmain.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/core/libcore.a

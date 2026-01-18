@@ -264,6 +264,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core/cmake_install.cmake")
 endif()
 

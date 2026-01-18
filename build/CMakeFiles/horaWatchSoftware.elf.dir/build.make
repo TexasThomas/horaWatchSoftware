@@ -132,10 +132,12 @@ horaWatchSoftware.elf: esp-idf/freertos/libfreertos.a
 horaWatchSoftware.elf: esp-idf/esp_libc/libesp_libc.a
 horaWatchSoftware.elf: esp-idf/pthread/libpthread.a
 horaWatchSoftware.elf: esp-idf/cxx/libcxx.a
+horaWatchSoftware.elf: esp-idf/lvgl/liblvgl.a
 horaWatchSoftware.elf: esp-idf/core/libcore.a
 horaWatchSoftware.elf: esp-idf/bsp/libbsp.a
 horaWatchSoftware.elf: esp-idf/main/libmain.a
 horaWatchSoftware.elf: esp-idf/core/libcore.a
+horaWatchSoftware.elf: esp-idf/lvgl/liblvgl.a
 horaWatchSoftware.elf: esp-idf/bsp/libbsp.a
 horaWatchSoftware.elf: esp-idf/xtensa/libxtensa.a
 horaWatchSoftware.elf: esp-idf/esp_stdio/libesp_stdio.a

@@ -86,17 +86,49 @@ esp-idf/core/CMakeFiles/__idf_core.dir/app.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_core.dir/app.c.s"
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/app.c -o CMakeFiles/__idf_core.dir/app.c.s
 
+esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.obj: esp-idf/core/CMakeFiles/__idf_core.dir/flags.make
+esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/app_state.c
+esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.obj: esp-idf/core/CMakeFiles/__idf_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.obj -MF CMakeFiles/__idf_core.dir/app_state.c.obj.d -o CMakeFiles/__idf_core.dir/app_state.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/app_state.c
+
+esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_core.dir/app_state.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/app_state.c > CMakeFiles/__idf_core.dir/app_state.c.i
+
+esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_core.dir/app_state.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/app_state.c -o CMakeFiles/__idf_core.dir/app_state.c.s
+
+esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.obj: esp-idf/core/CMakeFiles/__idf_core.dir/flags.make
+esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/ui/ui_create.c
+esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.obj: esp-idf/core/CMakeFiles/__idf_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.obj -MF CMakeFiles/__idf_core.dir/ui/ui_create.c.obj.d -o CMakeFiles/__idf_core.dir/ui/ui_create.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/ui/ui_create.c
+
+esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_core.dir/ui/ui_create.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/ui/ui_create.c > CMakeFiles/__idf_core.dir/ui/ui_create.c.i
+
+esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_core.dir/ui/ui_create.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/ui/ui_create.c -o CMakeFiles/__idf_core.dir/ui/ui_create.c.s
+
 # Object files for target __idf_core
 __idf_core_OBJECTS = \
-"CMakeFiles/__idf_core.dir/app.c.obj"
+"CMakeFiles/__idf_core.dir/app.c.obj" \
+"CMakeFiles/__idf_core.dir/app_state.c.obj" \
+"CMakeFiles/__idf_core.dir/ui/ui_create.c.obj"
 
 # External object files for target __idf_core
 __idf_core_EXTERNAL_OBJECTS =
 
 esp-idf/core/libcore.a: esp-idf/core/CMakeFiles/__idf_core.dir/app.c.obj
+esp-idf/core/libcore.a: esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.obj
+esp-idf/core/libcore.a: esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.obj
 esp-idf/core/libcore.a: esp-idf/core/CMakeFiles/__idf_core.dir/build.make
 esp-idf/core/libcore.a: esp-idf/core/CMakeFiles/__idf_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libcore.a"
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core && $(CMAKE_COMMAND) -P CMakeFiles/__idf_core.dir/cmake_clean_target.cmake
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_core.dir/link.txt --verbose=$(VERBOSE)
 

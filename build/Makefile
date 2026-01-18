@@ -1319,6 +1319,19 @@ __idf_cxx/fast:
 .PHONY : __idf_cxx/fast
 
 #=============================================================================
+# Target rules for targets named __idf_lvgl
+
+# Build rule for target.
+__idf_lvgl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_lvgl
+.PHONY : __idf_lvgl
+
+# fast build rule for target.
+__idf_lvgl/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build
+.PHONY : __idf_lvgl/fast
+
+#=============================================================================
 # Target rules for targets named __idf_core
 
 # Build rule for target.
@@ -1472,6 +1485,7 @@ help:
 	@echo "... __idf_hal"
 	@echo "... __idf_heap"
 	@echo "... __idf_log"
+	@echo "... __idf_lvgl"
 	@echo "... __idf_main"
 	@echo "... __idf_mbedtls"
 	@echo "... __idf_pthread"

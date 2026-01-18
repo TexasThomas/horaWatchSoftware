@@ -1,2 +1,2 @@
-/Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-ar qc libcore.a CMakeFiles/__idf_core.dir/app.c.obj
+/Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-ar qc libcore.a CMakeFiles/__idf_core.dir/app.c.obj CMakeFiles/__idf_core.dir/app_state.c.obj CMakeFiles/__idf_core.dir/ui/ui_create.c.obj
 /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-ranlib libcore.a
