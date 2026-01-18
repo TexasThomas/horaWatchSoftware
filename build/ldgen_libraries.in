@@ -53,12 +53,11 @@ $<TARGET_FILE:idf::esp_bootloader_format>
 $<TARGET_FILE:idf::app_update>
 $<TARGET_FILE:idf::esp_partition>
 $<TARGET_FILE:idf::efuse>
-$<TARGET_FILE:idf::esp_hal_timg>
-$<TARGET_FILE:idf::esp_timer>
 $<TARGET_FILE:idf::esp_driver_gpio>
 $<TARGET_FILE:idf::esp_hal_uart>
 $<TARGET_FILE:idf::esp_pm>
 $<TARGET_FILE:idf::mbedtls>
+$<TARGET_FILE:idf::esp_hal_timg>
 $<TARGET_FILE:idf::esp_hal_wdt>
 $<TARGET_FILE:idf::esp_hal_i2s>
 $<TARGET_FILE:idf::esp_hal_ana_conv>
@@ -79,9 +78,8 @@ $<TARGET_FILE:idf::freertos>
 $<TARGET_FILE:idf::esp_libc>
 $<TARGET_FILE:idf::pthread>
 $<TARGET_FILE:idf::cxx>
+$<TARGET_FILE:idf::esp_timer>
 $<TARGET_FILE:idf::lvgl>
-$<TARGET_FILE:idf::core>
-$<TARGET_FILE:__idf_lvgl>
 $<TARGET_FILE:idf::esp_hal_i2c>
 $<TARGET_FILE:idf::esp_ringbuf>
 $<TARGET_FILE:idf::esp_driver_i2c>
@@ -103,6 +101,8 @@ $<TARGET_FILE:__idf_esp_hal_twai>
 $<TARGET_FILE:idf::bsp>
 $<TARGET_FILE:__idf_esp_lcd>
 $<TARGET_FILE:__idf_driver>
+$<TARGET_FILE:__idf_lvgl>
+$<TARGET_FILE:idf::core>
 $<TARGET_FILE:idf::main>
-$<TARGET_FILE:__idf_core>
 $<TARGET_FILE:__idf_bsp>
+$<TARGET_FILE:__idf_core>

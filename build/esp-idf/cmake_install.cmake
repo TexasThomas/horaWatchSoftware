@@ -109,16 +109,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/esp_hal_timg/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/esp_timer/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/esp_security/cmake_install.cmake")
 endif()
 
@@ -140,6 +130,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/mbedtls/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/esp_hal_timg/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -264,12 +259,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/cmake_install.cmake")
+  include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/esp_timer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core/cmake_install.cmake")
+  include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -340,6 +335,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/bsp/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -112,6 +112,9 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_attr.h \
  /Users/markgrun/esp/esp-idf/components/log/include/esp_private/log_attr.h \
+ /Users/markgrun/esp/esp-idf/components/esp_timer/include/esp_timer.h \
+ /Users/markgrun/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
+ /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_task_wdt.h \
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/lvgl.h \
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/lv_version.h \
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/lv_init.h \

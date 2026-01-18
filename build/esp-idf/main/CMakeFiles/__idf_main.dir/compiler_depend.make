@@ -469,6 +469,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
   /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_err.h \
   /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
   /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_macros.h \
+  /Users/markgrun/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h \
   /Users/markgrun/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
   /Users/markgrun/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
   /Users/markgrun/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
@@ -483,6 +484,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
   /Users/markgrun/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
   /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
   /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_system.h \
+  /Users/markgrun/esp/esp-idf/components/esp_timer/include/esp_timer.h \
   /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
   /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
   /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
@@ -594,6 +596,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
 
 /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:
 
+/Users/markgrun/esp/esp-idf/components/esp_timer/include/esp_timer.h:
+
 /Users/markgrun/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
 /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_system.h:
@@ -613,6 +617,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
 /Users/markgrun/esp/esp-idf/components/xtensa/include/xtensa_context.h:
 
 /Users/markgrun/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h:
+
+/Users/markgrun/esp/esp-idf/components/esp_hw_support/etm/include/esp_etm.h:
 
 /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_idf_version.h:
 

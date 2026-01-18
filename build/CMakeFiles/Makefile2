@@ -128,13 +128,12 @@ esp-idf/all: esp-idf/esp_bootloader_format/all
 esp-idf/all: esp-idf/app_update/all
 esp-idf/all: esp-idf/esp_partition/all
 esp-idf/all: esp-idf/efuse/all
-esp-idf/all: esp-idf/esp_hal_timg/all
-esp-idf/all: esp-idf/esp_timer/all
 esp-idf/all: esp-idf/esp_security/all
 esp-idf/all: esp-idf/esp_driver_gpio/all
 esp-idf/all: esp-idf/esp_hal_uart/all
 esp-idf/all: esp-idf/esp_pm/all
 esp-idf/all: esp-idf/mbedtls/all
+esp-idf/all: esp-idf/esp_hal_timg/all
 esp-idf/all: esp-idf/esp_hal_wdt/all
 esp-idf/all: esp-idf/esp_hal_i2s/all
 esp-idf/all: esp-idf/esp_hal_ana_conv/all
@@ -159,8 +158,8 @@ esp-idf/all: esp-idf/freertos/all
 esp-idf/all: esp-idf/esp_libc/all
 esp-idf/all: esp-idf/pthread/all
 esp-idf/all: esp-idf/cxx/all
+esp-idf/all: esp-idf/esp_timer/all
 esp-idf/all: esp-idf/lvgl/all
-esp-idf/all: esp-idf/core/all
 esp-idf/all: esp-idf/esp_hal_i2c/all
 esp-idf/all: esp-idf/esp_ringbuf/all
 esp-idf/all: esp-idf/esp_driver_i2c/all
@@ -175,6 +174,7 @@ esp-idf/all: esp-idf/esp_lcd/all
 esp-idf/all: esp-idf/esp_hal_twai/all
 esp-idf/all: esp-idf/driver/all
 esp-idf/all: esp-idf/bsp/all
+esp-idf/all: esp-idf/core/all
 esp-idf/all: esp-idf/main/all
 .PHONY : esp-idf/all
 
@@ -193,13 +193,12 @@ esp-idf/codegen: esp-idf/esp_bootloader_format/codegen
 esp-idf/codegen: esp-idf/app_update/codegen
 esp-idf/codegen: esp-idf/esp_partition/codegen
 esp-idf/codegen: esp-idf/efuse/codegen
-esp-idf/codegen: esp-idf/esp_hal_timg/codegen
-esp-idf/codegen: esp-idf/esp_timer/codegen
 esp-idf/codegen: esp-idf/esp_security/codegen
 esp-idf/codegen: esp-idf/esp_driver_gpio/codegen
 esp-idf/codegen: esp-idf/esp_hal_uart/codegen
 esp-idf/codegen: esp-idf/esp_pm/codegen
 esp-idf/codegen: esp-idf/mbedtls/codegen
+esp-idf/codegen: esp-idf/esp_hal_timg/codegen
 esp-idf/codegen: esp-idf/esp_hal_wdt/codegen
 esp-idf/codegen: esp-idf/esp_hal_i2s/codegen
 esp-idf/codegen: esp-idf/esp_hal_ana_conv/codegen
@@ -224,8 +223,8 @@ esp-idf/codegen: esp-idf/freertos/codegen
 esp-idf/codegen: esp-idf/esp_libc/codegen
 esp-idf/codegen: esp-idf/pthread/codegen
 esp-idf/codegen: esp-idf/cxx/codegen
+esp-idf/codegen: esp-idf/esp_timer/codegen
 esp-idf/codegen: esp-idf/lvgl/codegen
-esp-idf/codegen: esp-idf/core/codegen
 esp-idf/codegen: esp-idf/esp_hal_i2c/codegen
 esp-idf/codegen: esp-idf/esp_ringbuf/codegen
 esp-idf/codegen: esp-idf/esp_driver_i2c/codegen
@@ -240,6 +239,7 @@ esp-idf/codegen: esp-idf/esp_lcd/codegen
 esp-idf/codegen: esp-idf/esp_hal_twai/codegen
 esp-idf/codegen: esp-idf/driver/codegen
 esp-idf/codegen: esp-idf/bsp/codegen
+esp-idf/codegen: esp-idf/core/codegen
 esp-idf/codegen: esp-idf/main/codegen
 .PHONY : esp-idf/codegen
 
@@ -258,13 +258,12 @@ esp-idf/preinstall: esp-idf/esp_bootloader_format/preinstall
 esp-idf/preinstall: esp-idf/app_update/preinstall
 esp-idf/preinstall: esp-idf/esp_partition/preinstall
 esp-idf/preinstall: esp-idf/efuse/preinstall
-esp-idf/preinstall: esp-idf/esp_hal_timg/preinstall
-esp-idf/preinstall: esp-idf/esp_timer/preinstall
 esp-idf/preinstall: esp-idf/esp_security/preinstall
 esp-idf/preinstall: esp-idf/esp_driver_gpio/preinstall
 esp-idf/preinstall: esp-idf/esp_hal_uart/preinstall
 esp-idf/preinstall: esp-idf/esp_pm/preinstall
 esp-idf/preinstall: esp-idf/mbedtls/preinstall
+esp-idf/preinstall: esp-idf/esp_hal_timg/preinstall
 esp-idf/preinstall: esp-idf/esp_hal_wdt/preinstall
 esp-idf/preinstall: esp-idf/esp_hal_i2s/preinstall
 esp-idf/preinstall: esp-idf/esp_hal_ana_conv/preinstall
@@ -289,8 +288,8 @@ esp-idf/preinstall: esp-idf/freertos/preinstall
 esp-idf/preinstall: esp-idf/esp_libc/preinstall
 esp-idf/preinstall: esp-idf/pthread/preinstall
 esp-idf/preinstall: esp-idf/cxx/preinstall
+esp-idf/preinstall: esp-idf/esp_timer/preinstall
 esp-idf/preinstall: esp-idf/lvgl/preinstall
-esp-idf/preinstall: esp-idf/core/preinstall
 esp-idf/preinstall: esp-idf/esp_hal_i2c/preinstall
 esp-idf/preinstall: esp-idf/esp_ringbuf/preinstall
 esp-idf/preinstall: esp-idf/esp_driver_i2c/preinstall
@@ -305,6 +304,7 @@ esp-idf/preinstall: esp-idf/esp_lcd/preinstall
 esp-idf/preinstall: esp-idf/esp_hal_twai/preinstall
 esp-idf/preinstall: esp-idf/driver/preinstall
 esp-idf/preinstall: esp-idf/bsp/preinstall
+esp-idf/preinstall: esp-idf/core/preinstall
 esp-idf/preinstall: esp-idf/main/preinstall
 .PHONY : esp-idf/preinstall
 
@@ -323,13 +323,12 @@ esp-idf/clean: esp-idf/esp_bootloader_format/clean
 esp-idf/clean: esp-idf/app_update/clean
 esp-idf/clean: esp-idf/esp_partition/clean
 esp-idf/clean: esp-idf/efuse/clean
-esp-idf/clean: esp-idf/esp_hal_timg/clean
-esp-idf/clean: esp-idf/esp_timer/clean
 esp-idf/clean: esp-idf/esp_security/clean
 esp-idf/clean: esp-idf/esp_driver_gpio/clean
 esp-idf/clean: esp-idf/esp_hal_uart/clean
 esp-idf/clean: esp-idf/esp_pm/clean
 esp-idf/clean: esp-idf/mbedtls/clean
+esp-idf/clean: esp-idf/esp_hal_timg/clean
 esp-idf/clean: esp-idf/esp_hal_wdt/clean
 esp-idf/clean: esp-idf/esp_hal_i2s/clean
 esp-idf/clean: esp-idf/esp_hal_ana_conv/clean
@@ -354,8 +353,8 @@ esp-idf/clean: esp-idf/freertos/clean
 esp-idf/clean: esp-idf/esp_libc/clean
 esp-idf/clean: esp-idf/pthread/clean
 esp-idf/clean: esp-idf/cxx/clean
+esp-idf/clean: esp-idf/esp_timer/clean
 esp-idf/clean: esp-idf/lvgl/clean
-esp-idf/clean: esp-idf/core/clean
 esp-idf/clean: esp-idf/esp_hal_i2c/clean
 esp-idf/clean: esp-idf/esp_ringbuf/clean
 esp-idf/clean: esp-idf/esp_driver_i2c/clean
@@ -370,6 +369,7 @@ esp-idf/clean: esp-idf/esp_lcd/clean
 esp-idf/clean: esp-idf/esp_hal_twai/clean
 esp-idf/clean: esp-idf/driver/clean
 esp-idf/clean: esp-idf/bsp/clean
+esp-idf/clean: esp-idf/core/clean
 esp-idf/clean: esp-idf/main/clean
 .PHONY : esp-idf/clean
 
@@ -2132,9 +2132,9 @@ CMakeFiles/refresh-config.dir/clean:
 # Target rules for target CMakeFiles/flash.dir
 
 # All Build rule for target.
-CMakeFiles/flash.dir/all: CMakeFiles/bootloader.dir/all
 CMakeFiles/flash.dir/all: CMakeFiles/app.dir/all
 CMakeFiles/flash.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
+CMakeFiles/flash.dir/all: CMakeFiles/bootloader.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target flash"
@@ -2152,9 +2152,9 @@ flash: CMakeFiles/flash.dir/rule
 .PHONY : flash
 
 # codegen rule for target.
-CMakeFiles/flash.dir/codegen: CMakeFiles/bootloader.dir/all
 CMakeFiles/flash.dir/codegen: CMakeFiles/app.dir/all
 CMakeFiles/flash.dir/codegen: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
+CMakeFiles/flash.dir/codegen: CMakeFiles/bootloader.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target flash"
 .PHONY : CMakeFiles/flash.dir/codegen
@@ -2232,11 +2232,7 @@ CMakeFiles/_project_elf_src.dir/clean:
 # Target rules for target CMakeFiles/horaWatchSoftware.elf.dir
 
 # All Build rule for target.
-CMakeFiles/horaWatchSoftware.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
-CMakeFiles/horaWatchSoftware.elf.dir/all: CMakeFiles/__ldgen_output_sections.ld.dir/all
-CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
-CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/core/CMakeFiles/__idf_core.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
@@ -2247,7 +2243,11 @@ CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_l
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all
+CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/core/CMakeFiles/__idf_core.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
+CMakeFiles/horaWatchSoftware.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
+CMakeFiles/horaWatchSoftware.elf.dir/all: CMakeFiles/__ldgen_output_sections.ld.dir/all
+CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/horaWatchSoftware.elf.dir/build.make CMakeFiles/horaWatchSoftware.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/horaWatchSoftware.elf.dir/build.make CMakeFiles/horaWatchSoftware.elf.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target horaWatchSoftware.elf"
@@ -2440,9 +2440,7 @@ CMakeFiles/uf2-app.dir/clean:
 # Target rules for target CMakeFiles/__ldgen_output_sections.ld.dir
 
 # All Build rule for target.
-CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
-CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/core/CMakeFiles/__idf_core.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
@@ -2453,7 +2451,9 @@ CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all
+CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/core/CMakeFiles/__idf_core.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
+CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/__ldgen_output_sections.ld.dir/build.make CMakeFiles/__ldgen_output_sections.ld.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/__ldgen_output_sections.ld.dir/build.make CMakeFiles/__ldgen_output_sections.ld.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __ldgen_output_sections.ld"
@@ -2471,9 +2471,7 @@ __ldgen_output_sections.ld: CMakeFiles/__ldgen_output_sections.ld.dir/rule
 .PHONY : __ldgen_output_sections.ld
 
 # codegen rule for target.
-CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
-CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/core/CMakeFiles/__idf_core.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
@@ -2484,6 +2482,8 @@ CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_lcd/CMakeFiles/__
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all
+CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/core/CMakeFiles/__idf_core.dir/all
+CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/__ldgen_output_sections.ld.dir/build.make CMakeFiles/__ldgen_output_sections.ld.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target __ldgen_output_sections.ld"
 .PHONY : CMakeFiles/__ldgen_output_sections.ld.dir/codegen
@@ -2723,8 +2723,8 @@ CMakeFiles/erase-flash.dir/clean:
 # Target rules for target CMakeFiles/merge-bin.dir
 
 # All Build rule for target.
-CMakeFiles/merge-bin.dir/all: CMakeFiles/bootloader.dir/all
 CMakeFiles/merge-bin.dir/all: CMakeFiles/gen_project_binary.dir/all
+CMakeFiles/merge-bin.dir/all: CMakeFiles/bootloader.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge-bin.dir/build.make CMakeFiles/merge-bin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge-bin.dir/build.make CMakeFiles/merge-bin.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target merge-bin"
@@ -2742,8 +2742,8 @@ merge-bin: CMakeFiles/merge-bin.dir/rule
 .PHONY : merge-bin
 
 # codegen rule for target.
-CMakeFiles/merge-bin.dir/codegen: CMakeFiles/bootloader.dir/all
 CMakeFiles/merge-bin.dir/codegen: CMakeFiles/gen_project_binary.dir/all
+CMakeFiles/merge-bin.dir/codegen: CMakeFiles/bootloader.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge-bin.dir/build.make CMakeFiles/merge-bin.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target merge-bin"
 .PHONY : CMakeFiles/merge-bin.dir/codegen
@@ -3367,7 +3367,7 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/clean:
 # Target rules for target esp-idf/efuse/CMakeFiles/__idf_efuse.dir
 
 # All Build rule for target.
-esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all: esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/all
+esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all: esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=3 "Built target __idf_efuse"
@@ -3620,70 +3620,6 @@ esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean:
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean
 
 #=============================================================================
-# Target rules for target esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir
-
-# All Build rule for target.
-esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/all: esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build.make esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/depend
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build.make esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_esp_hal_timg"
-.PHONY : esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/all
-
-# Build rule for subdir invocation for target.
-esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 31
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
-.PHONY : esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/rule
-
-# Convenience name for target.
-__idf_esp_hal_timg: esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/rule
-.PHONY : __idf_esp_hal_timg
-
-# codegen rule for target.
-esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build.make esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target __idf_esp_hal_timg"
-.PHONY : esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/codegen
-
-# clean rule for target.
-esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/clean:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build.make esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/clean
-.PHONY : esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/clean
-
-#=============================================================================
-# Target rules for target esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir
-
-# All Build rule for target.
-esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/all
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/depend
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=20 "Built target __idf_esp_timer"
-.PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
-
-# Build rule for subdir invocation for target.
-esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 31
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
-.PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule
-
-# Convenience name for target.
-__idf_esp_timer: esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule
-.PHONY : __idf_esp_timer
-
-# codegen rule for target.
-esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=20 "Finished codegen for target __idf_esp_timer"
-.PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/codegen
-
-# clean rule for target.
-esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/clean
-.PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/clean
-
-#=============================================================================
 # Target rules for target esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir
 
 # All Build rule for target.
@@ -3695,7 +3631,7 @@ esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/all: esp-idf/esp_driver_g
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/rule
@@ -3727,7 +3663,7 @@ esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/all: esp-idf/esp_ha
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/rule
@@ -3759,7 +3695,7 @@ esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/all: esp-idf/esp_pm/CMake
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/rule
@@ -3791,7 +3727,7 @@ esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all: esp-idf/mbedtls/CMakeFiles/__idf
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/rule
@@ -3823,7 +3759,7 @@ esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/all: esp-idf/mbedtls/mbedtls/tf-psa
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/rule
@@ -3943,7 +3879,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/clean:
 # Target rules for target esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir
 
 # All Build rule for target.
-esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/all: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/all
+esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/all: esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build.make esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=99,100 "Built target tfpsacrypto"
@@ -3951,7 +3887,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/all: esp-i
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/rule
@@ -3983,7 +3919,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeFiles/everest.dir/rule
@@ -4015,7 +3951,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/CMakeFiles/p256m.dir/all: e
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/CMakeFiles/p256m.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/CMakeFiles/p256m.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/CMakeFiles/p256m.dir/rule
@@ -4047,7 +3983,7 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/CMakeFiles/builtin.dir/rule
@@ -4079,7 +4015,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/all: esp-idf/mbedtls/mbe
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule
@@ -4111,7 +4047,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all: esp-idf/mbedtls/mbed
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule
@@ -4164,6 +4100,38 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/clean:
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/clean
 
 #=============================================================================
+# Target rules for target esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir
+
+# All Build rule for target.
+esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/all: esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/all
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build.make esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/depend
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build.make esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_esp_hal_timg"
+.PHONY : esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/all
+
+# Build rule for subdir invocation for target.
+esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 20
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
+.PHONY : esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/rule
+
+# Convenience name for target.
+__idf_esp_hal_timg: esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/rule
+.PHONY : __idf_esp_hal_timg
+
+# codegen rule for target.
+esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build.make esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target __idf_esp_hal_timg"
+.PHONY : esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/codegen
+
+# clean rule for target.
+esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/clean:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/build.make esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/clean
+.PHONY : esp-idf/esp_hal_timg/CMakeFiles/__idf_esp_hal_timg.dir/clean
+
+#=============================================================================
 # Target rules for target esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir
 
 # All Build rule for target.
@@ -4175,7 +4143,7 @@ esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/all: esp-idf/esp_hal_i2s/CM
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rule
@@ -4207,7 +4175,7 @@ esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/all: esp-idf/esp_hal_ana_co
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir/rule
@@ -4239,7 +4207,7 @@ esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/all: esp-idf/boot
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/rule
@@ -4271,7 +4239,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all: esp-idf/
 
 # Build rule for subdir invocation for target.
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/rule
@@ -4303,7 +4271,7 @@ esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/all: esp-idf/spi_flash/CMakeFiles/__i
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/rule
@@ -4335,7 +4303,7 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all: esp-idf/esp_system/CMakeFi
 
 # Build rule for subdir invocation for target.
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
@@ -4367,7 +4335,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all: esp-idf/esp_common/CMake
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule
@@ -4463,7 +4431,7 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all: esp-idf/esp_rom/CMakeFil
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
@@ -4495,7 +4463,7 @@ esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all: esp-idf/hal/CMakeFiles/__idf_h
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule
@@ -4527,7 +4495,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/all: esp-idf/log/CMakeFiles/__idf_log.dir/a
 
 # Build rule for subdir invocation for target.
 esp-idf/hal/CMakeFiles/__idf_hal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/CMakeFiles/__idf_hal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
@@ -4559,7 +4527,7 @@ esp-idf/log/CMakeFiles/__idf_log.dir/all: esp-idf/heap/CMakeFiles/__idf_heap.dir
 
 # Build rule for subdir invocation for target.
 esp-idf/log/CMakeFiles/__idf_log.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/CMakeFiles/__idf_log.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/rule
@@ -4591,7 +4559,7 @@ esp-idf/heap/CMakeFiles/__idf_heap.dir/all: esp-idf/soc/CMakeFiles/__idf_soc.dir
 
 # Build rule for subdir invocation for target.
 esp-idf/heap/CMakeFiles/__idf_heap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/heap/CMakeFiles/__idf_heap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/heap/CMakeFiles/__idf_heap.dir/rule
@@ -4623,7 +4591,7 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/all: esp-idf/esp_hal_pmu/CMakeFiles/__idf_e
 
 # Build rule for subdir invocation for target.
 esp-idf/soc/CMakeFiles/__idf_soc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/CMakeFiles/__idf_soc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
@@ -4655,7 +4623,7 @@ esp-idf/esp_hal_pmu/CMakeFiles/__idf_esp_hal_pmu.dir/all: esp-idf/esp_hal_touch_
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hal_pmu/CMakeFiles/__idf_esp_hal_pmu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_pmu/CMakeFiles/__idf_esp_hal_pmu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_hal_pmu/CMakeFiles/__idf_esp_hal_pmu.dir/rule
@@ -4687,7 +4655,7 @@ esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/all: esp-idf/
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/rule
@@ -4719,7 +4687,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all: esp-idf/freertos
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule
@@ -4751,7 +4719,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/all: esp-idf/esp_libc/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule
@@ -4783,7 +4751,7 @@ esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/all: esp-idf/pthread/CMakeFiles/_
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/esp_libc/CMakeFiles/__idf_esp_libc.dir/rule
@@ -4815,7 +4783,7 @@ esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all: esp-idf/cxx/CMakeFiles/__idf_c
 
 # Build rule for subdir invocation for target.
 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule
@@ -4839,9 +4807,7 @@ esp-idf/pthread/CMakeFiles/__idf_pthread.dir/clean:
 # Target rules for target esp-idf/cxx/CMakeFiles/__idf_cxx.dir
 
 # All Build rule for target.
-esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
-esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all: esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/all
-esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all: esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/all
+esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all: esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build.make esp-idf/cxx/CMakeFiles/__idf_cxx.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build.make esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=2 "Built target __idf_cxx"
@@ -4849,7 +4815,7 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all: esp-idf/esp_system/CMakeFiles/sections
 
 # Build rule for subdir invocation for target.
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
 .PHONY : esp-idf/cxx/CMakeFiles/__idf_cxx.dir/rule
@@ -4868,6 +4834,40 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/codegen:
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/clean:
 	$(MAKE) $(MAKESILENT) -f esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build.make esp-idf/cxx/CMakeFiles/__idf_cxx.dir/clean
 .PHONY : esp-idf/cxx/CMakeFiles/__idf_cxx.dir/clean
+
+#=============================================================================
+# Target rules for target esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir
+
+# All Build rule for target.
+esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/all
+esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/all
+esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/depend
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=20 "Built target __idf_esp_timer"
+.PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
+
+# Build rule for subdir invocation for target.
+esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
+.PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule
+
+# Convenience name for target.
+__idf_esp_timer: esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule
+.PHONY : __idf_esp_timer
+
+# codegen rule for target.
+esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=20 "Finished codegen for target __idf_esp_timer"
+.PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/codegen
+
+# clean rule for target.
+esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/clean
+.PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/clean
 
 #=============================================================================
 # Target rules for target esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir
@@ -4900,39 +4900,6 @@ esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/codegen:
 esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/clean:
 	$(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/clean
 .PHONY : esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/clean
-
-#=============================================================================
-# Target rules for target esp-idf/core/CMakeFiles/__idf_core.dir
-
-# All Build rule for target.
-esp-idf/core/CMakeFiles/__idf_core.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
-esp-idf/core/CMakeFiles/__idf_core.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
-	$(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/depend
-	$(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_core"
-.PHONY : esp-idf/core/CMakeFiles/__idf_core.dir/all
-
-# Build rule for subdir invocation for target.
-esp-idf/core/CMakeFiles/__idf_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 96
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/core/CMakeFiles/__idf_core.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
-.PHONY : esp-idf/core/CMakeFiles/__idf_core.dir/rule
-
-# Convenience name for target.
-__idf_core: esp-idf/core/CMakeFiles/__idf_core.dir/rule
-.PHONY : __idf_core
-
-# codegen rule for target.
-esp-idf/core/CMakeFiles/__idf_core.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target __idf_core"
-.PHONY : esp-idf/core/CMakeFiles/__idf_core.dir/codegen
-
-# clean rule for target.
-esp-idf/core/CMakeFiles/__idf_core.dir/clean:
-	$(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/clean
-.PHONY : esp-idf/core/CMakeFiles/__idf_core.dir/clean
 
 #=============================================================================
 # Target rules for target esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir
@@ -5002,9 +4969,9 @@ esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/clean:
 # Target rules for target esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir
 
 # All Build rule for target.
-esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
+esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/build.make esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/build.make esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_esp_driver_i2c"
@@ -5164,13 +5131,13 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/clean:
 # Target rules for target esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir
 
 # All Build rule for target.
-esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_hal_lcd/CMakeFiles/__idf_esp_hal_lcd.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/all
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_esp_lcd"
@@ -5234,10 +5201,10 @@ esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/clean:
 # Target rules for target esp-idf/driver/CMakeFiles/__idf_driver.dir
 
 # All Build rule for target.
-esp-idf/driver/CMakeFiles/__idf_driver.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/driver/CMakeFiles/__idf_driver.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 esp-idf/driver/CMakeFiles/__idf_driver.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 esp-idf/driver/CMakeFiles/__idf_driver.dir/all: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/all
+esp-idf/driver/CMakeFiles/__idf_driver.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_driver"
@@ -5269,7 +5236,6 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/clean:
 # Target rules for target esp-idf/bsp/CMakeFiles/__idf_bsp.dir
 
 # All Build rule for target.
-esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
@@ -5280,6 +5246,7 @@ esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_driver_i2s/CMakeFiles/__id
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
+esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build.make esp-idf/bsp/CMakeFiles/__idf_bsp.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build.make esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_bsp"
@@ -5308,12 +5275,43 @@ esp-idf/bsp/CMakeFiles/__idf_bsp.dir/clean:
 .PHONY : esp-idf/bsp/CMakeFiles/__idf_bsp.dir/clean
 
 #=============================================================================
+# Target rules for target esp-idf/core/CMakeFiles/__idf_core.dir
+
+# All Build rule for target.
+esp-idf/core/CMakeFiles/__idf_core.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
+esp-idf/core/CMakeFiles/__idf_core.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
+	$(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/depend
+	$(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_core"
+.PHONY : esp-idf/core/CMakeFiles/__idf_core.dir/all
+
+# Build rule for subdir invocation for target.
+esp-idf/core/CMakeFiles/__idf_core.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 96
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/core/CMakeFiles/__idf_core.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles 0
+.PHONY : esp-idf/core/CMakeFiles/__idf_core.dir/rule
+
+# Convenience name for target.
+__idf_core: esp-idf/core/CMakeFiles/__idf_core.dir/rule
+.PHONY : __idf_core
+
+# codegen rule for target.
+esp-idf/core/CMakeFiles/__idf_core.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target __idf_core"
+.PHONY : esp-idf/core/CMakeFiles/__idf_core.dir/codegen
+
+# clean rule for target.
+esp-idf/core/CMakeFiles/__idf_core.dir/clean:
+	$(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/clean
+.PHONY : esp-idf/core/CMakeFiles/__idf_core.dir/clean
+
+#=============================================================================
 # Target rules for target esp-idf/main/CMakeFiles/__idf_main.dir
 
 # All Build rule for target.
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/core/CMakeFiles/__idf_core.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
@@ -5324,6 +5322,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/core/CMakeFiles/__idf_core.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_main"

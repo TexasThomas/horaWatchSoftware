@@ -107,6 +107,10 @@ static esp_err_t panel_init_spi(void)
     ESP_RETURN_ON_ERROR(esp_lcd_panel_init(s_panel), TAG, "panel_init failed");
     ESP_RETURN_ON_ERROR(esp_lcd_panel_disp_on_off(s_panel, true), TAG, "disp_on_off failed");
 
+    // 240x280 ST7789 panels usually need a vertical offset
+
+     esp_lcd_panel_set_gap(s_panel, 0, 20);
+
     // Rotation (common mapping; you may tweak after first image)
 #if (DISP_ROTATION_DEG == 0)
     esp_lcd_panel_swap_xy(s_panel, false);

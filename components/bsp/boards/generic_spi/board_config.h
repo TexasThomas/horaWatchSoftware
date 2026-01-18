@@ -2,7 +2,7 @@
 
 // ========= Display basics =========
 #define DISP_HOR_RES      240
-#define DISP_VER_RES      240
+#define DISP_VER_RES      280
 #define DISP_ROTATION_DEG 0
 
 // ========= SPI pins (ST7789) =========

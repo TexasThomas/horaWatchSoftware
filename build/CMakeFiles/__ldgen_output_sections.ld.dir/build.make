@@ -160,12 +160,11 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/esp_bootloader_format/libesp_bootload
 esp-idf/esp_system/ld/sections.ld: esp-idf/app_update/libapp_update.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_partition/libesp_partition.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/efuse/libefuse.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hal_timg/libesp_hal_timg.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_timer/libesp_timer.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_gpio/libesp_driver_gpio.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hal_uart/libesp_hal_uart.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_pm/libesp_pm.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/mbedtls/libmbedtls.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hal_timg/libesp_hal_timg.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hal_wdt/libesp_hal_wdt.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
@@ -186,8 +185,7 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/freertos/libfreertos.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_libc/libesp_libc.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/pthread/libpthread.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/cxx/libcxx.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/lvgl/liblvgl.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/core/libcore.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/esp_timer/libesp_timer.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/lvgl/liblvgl.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hal_i2c/libesp_hal_i2c.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_ringbuf/libesp_ringbuf.a
@@ -210,9 +208,11 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hal_twai/libesp_hal_twai.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/bsp/libbsp.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_lcd/libesp_lcd.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/driver/libdriver.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/lvgl/liblvgl.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/core/libcore.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/main/libmain.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/core/libcore.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/bsp/libbsp.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/core/libcore.a
 esp-idf/esp_system/ld/sections.ld: /Users/markgrun/Watch18.1/horaWatchSoftware/sdkconfig
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating esp-idf/esp_system/ld/sections.ld"
 	/Users/markgrun/.espressif/python_env/idf6.1_py3.14_env/bin/python /Users/markgrun/esp/esp-idf/tools/ldgen/ldgen.py --config /Users/markgrun/Watch18.1/horaWatchSoftware/sdkconfig --fragments-list "/Users/markgrun/esp/esp-idf/components/xtensa/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_driver_gpio/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_pm/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_hal_wdt/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_mm/linker.lf;/Users/markgrun/esp/esp-idf/components/spi_flash/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_usb_cdc_rom_console/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_system/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_system/app.lf;/Users/markgrun/esp/esp-idf/components/esp_common/common.lf;/Users/markgrun/esp/esp-idf/components/esp_common/soc.lf;/Users/markgrun/esp/esp-idf/components/esp_rom/linker.lf;/Users/markgrun/esp/esp-idf/components/hal/linker.lf;/Users/markgrun/esp/esp-idf/components/log/linker.lf;/Users/markgrun/esp/esp-idf/components/heap/linker.lf;/Users/markgrun/esp/esp-idf/components/soc/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_hal_pmu/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_hw_support/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_hw_support/dma/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_hw_support/ldo/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_hw_support/mspi/linker.lf;/Users/markgrun/esp/esp-idf/components/freertos/linker_common.lf;/Users/markgrun/esp/esp-idf/components/freertos/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_libc/src/esp_libc.lf;/Users/markgrun/esp/esp-idf/components/esp_libc/src/system_libs.lf;/Users/markgrun/esp/esp-idf/components/esp_libc/src/picolibc/libc.lf;/Users/markgrun/esp/esp-idf/components/esp_ringbuf/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_driver_i2c/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_psram/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_driver_spi/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_driver_bitscrambler/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_driver_parlio/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_driver_i2s/linker.lf;/Users/markgrun/esp/esp-idf/components/esp_lcd/linker.lf;/Users/markgrun/esp/esp-idf/components/driver/i2c/linker.lf;/Users/markgrun/esp/esp-idf/components/driver/twai/linker.lf" --input /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/esp_system/ld/sections.ld.in --output /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/esp_system/ld/sections.ld --kconfig /Users/markgrun/esp/esp-idf/Kconfig --env-file /Users/markgrun/Watch18.1/horaWatchSoftware/build/config.env --libraries-file /Users/markgrun/Watch18.1/horaWatchSoftware/build/ldgen_libraries --objdump /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump

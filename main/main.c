@@ -2,7 +2,8 @@
 #include "freertos/task.h"
 #include "freertos/semphr.h"
 #include "esp_log.h"
-#include "esp_timer.h"
+#include <esp_timer.h>
+#include "esp_task_wdt.h"
 
 #include "lvgl.h"
 #include "bsp.h"
@@ -22,12 +23,18 @@ static void lvgl_task(void *arg)
 {
     (void)arg;
 
+    // Add this task to the watchdog
+    esp_task_wdt_add(NULL);
+
     while (1) {
         // LVGL is not thread-safe -> guard
         if (xSemaphoreTake(s_lvgl_mutex, portMAX_DELAY) == pdTRUE) {
             lv_timer_handler();
             xSemaphoreGive(s_lvgl_mutex);
         }
+
+        // Feed the watchdog to prevent timeout
+        esp_task_wdt_reset();
 
         // Yield so IDLE task can run (prevents WDT)
         vTaskDelay(pdMS_TO_TICKS(5));
