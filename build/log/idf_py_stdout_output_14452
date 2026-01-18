@@ -1,0 +1,39 @@
+-- Component directory C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/components/lvgl does not contain a CMakeLists.txt file. No component will be added
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] lvgl/lvgl (9.4.0)
+NOTICE: [2/2] idf (5.1.0)
+-- Project sdkconfig file C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/sdkconfig
+-- App "horaWatchSoftware" version: f461a10-dirty
+-- Adding linker script C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/User/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/Users/User/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/User/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/User/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/User/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Users/User/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Users/User/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/User/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bsp bt cmock console core cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lvgl__lvgl lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Users/User/esp/esp-idf/components/app_trace C:/Users/User/esp/esp-idf/components/app_update C:/Users/User/esp/esp-idf/components/bootloader C:/Users/User/esp/esp-idf/components/bootloader_support C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/components/bsp C:/Users/User/esp/esp-idf/components/bt C:/Users/User/esp/esp-idf/components/cmock C:/Users/User/esp/esp-idf/components/console C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/components/core C:/Users/User/esp/esp-idf/components/cxx C:/Users/User/esp/esp-idf/components/driver C:/Users/User/esp/esp-idf/components/efuse C:/Users/User/esp/esp-idf/components/esp-tls C:/Users/User/esp/esp-idf/components/esp_adc C:/Users/User/esp/esp-idf/components/esp_app_format C:/Users/User/esp/esp-idf/components/esp_coex C:/Users/User/esp/esp-idf/components/esp_common C:/Users/User/esp/esp-idf/components/esp_eth C:/Users/User/esp/esp-idf/components/esp_event C:/Users/User/esp/esp-idf/components/esp_gdbstub C:/Users/User/esp/esp-idf/components/esp_hid C:/Users/User/esp/esp-idf/components/esp_http_client C:/Users/User/esp/esp-idf/components/esp_http_server C:/Users/User/esp/esp-idf/components/esp_https_ota C:/Users/User/esp/esp-idf/components/esp_https_server C:/Users/User/esp/esp-idf/components/esp_hw_support C:/Users/User/esp/esp-idf/components/esp_lcd C:/Users/User/esp/esp-idf/components/esp_local_ctrl C:/Users/User/esp/esp-idf/components/esp_mm C:/Users/User/esp/esp-idf/components/esp_netif C:/Users/User/esp/esp-idf/components/esp_netif_stack C:/Users/User/esp/esp-idf/components/esp_partition C:/Users/User/esp/esp-idf/components/esp_phy C:/Users/User/esp/esp-idf/components/esp_pm C:/Users/User/esp/esp-idf/components/esp_psram C:/Users/User/esp/esp-idf/components/esp_ringbuf C:/Users/User/esp/esp-idf/components/esp_rom C:/Users/User/esp/esp-idf/components/esp_system C:/Users/User/esp/esp-idf/components/esp_timer C:/Users/User/esp/esp-idf/components/esp_wifi C:/Users/User/esp/esp-idf/components/espcoredump C:/Users/User/esp/esp-idf/components/esptool_py C:/Users/User/esp/esp-idf/components/fatfs C:/Users/User/esp/esp-idf/components/freertos C:/Users/User/esp/esp-idf/components/hal C:/Users/User/esp/esp-idf/components/heap C:/Users/User/esp/esp-idf/components/http_parser C:/Users/User/esp/esp-idf/components/idf_test C:/Users/User/esp/esp-idf/components/ieee802154 C:/Users/User/esp/esp-idf/components/json C:/Users/User/esp/esp-idf/components/log C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/managed_components/lvgl__lvgl C:/Users/User/esp/esp-idf/components/lwip C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/main C:/Users/User/esp/esp-idf/components/mbedtls C:/Users/User/esp/esp-idf/components/mqtt C:/Users/User/esp/esp-idf/components/newlib C:/Users/User/esp/esp-idf/components/nvs_flash C:/Users/User/esp/esp-idf/components/openthread C:/Users/User/esp/esp-idf/components/partition_table C:/Users/User/esp/esp-idf/components/perfmon C:/Users/User/esp/esp-idf/components/protobuf-c C:/Users/User/esp/esp-idf/components/protocomm C:/Users/User/esp/esp-idf/components/pthread C:/Users/User/esp/esp-idf/components/sdmmc C:/Users/User/esp/esp-idf/components/soc C:/Users/User/esp/esp-idf/components/spi_flash C:/Users/User/esp/esp-idf/components/spiffs C:/Users/User/esp/esp-idf/components/tcp_transport C:/Users/User/esp/esp-idf/components/ulp C:/Users/User/esp/esp-idf/components/unity C:/Users/User/esp/esp-idf/components/usb C:/Users/User/esp/esp-idf/components/vfs C:/Users/User/esp/esp-idf/components/wear_levelling C:/Users/User/esp/esp-idf/components/wifi_provisioning C:/Users/User/esp/esp-idf/components/wpa_supplicant C:/Users/User/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build
+[0/1] Re-running CMake...
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\User\Documents\horaWatchSoftware\horaWatchSoftware\build\bootloader\esp-idf\esptool_py && C:\Users\User\.espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Users/User/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6470 bytes. 0xb90 bytes (10%) free.
+[2/8] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.obj
+[3/8] Building C object esp-idf/core/CMakeFiles/__idf_core.dir/ui/test_image.c.obj
+[4/8] Linking C static library esp-idf\core\libcore.a
+[5/8] Generating ld/sections.ld
+[6/8] Linking CXX executable horaWatchSoftware.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.10.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/horaWatchSoftware.bin
+[8/8] cmd.exe /C "cd /D C:\Users\User\Documents\horaWatchSoftware\horaWatchSoftware\build\esp-idf\esptool_py && C:\Users\User\.espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Users/User/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/partition_table/partition-table.bin C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/horaWatchSoftware.bin"
+horaWatchSoftware.bin binary size 0x8b8a0 bytes. Smallest app partition is 0x100000 bytes. 0x74760 bytes (45%) free.

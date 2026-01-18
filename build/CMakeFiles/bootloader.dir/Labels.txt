@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles/bootloader
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles/bootloader.rule
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles/bootloader-complete.rule
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-/Users/markgrun/Watch18.1/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/CMakeFiles/bootloader
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/CMakeFiles/bootloader.rule
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/CMakeFiles/bootloader-complete.rule
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/User/Documents/horaWatchSoftware/horaWatchSoftware/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

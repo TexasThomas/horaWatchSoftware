@@ -36,7 +36,7 @@ Das Projekt besteht aus **drei klar getrennten Ebenen**:
 ↓
 [ Core – App + UI + Logik ]
 
-````
+```
 
 ### Bedeutung:
 - **Core** = dein Produkt → bleibt IMMER gleich
@@ -52,7 +52,7 @@ Das Projekt besteht aus **drei klar getrennten Ebenen**:
 ### ❗ Es gibt genau EINE Wahrheit:
 ```c
 app_state_t state;
-````
+```
 
 * Die **Logik** ändert den State
 * Die **UI** zeigt den State

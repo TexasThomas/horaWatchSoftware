@@ -3,6 +3,7 @@ idf_component_register(
         "app.c"
         "app_state.c"
         "ui/ui_create.c"
+        "ui/test.c"  # Alexander the Great image (200x200)
     INCLUDE_DIRS
         "include"
         "ui"
