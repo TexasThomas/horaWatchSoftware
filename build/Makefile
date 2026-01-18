@@ -1345,6 +1345,136 @@ __idf_core/fast:
 .PHONY : __idf_core/fast
 
 #=============================================================================
+# Target rules for targets named __idf_esp_hal_i2c
+
+# Build rule for target.
+__idf_esp_hal_i2c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_hal_i2c
+.PHONY : __idf_esp_hal_i2c
+
+# fast build rule for target.
+__idf_esp_hal_i2c/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/build.make esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/build
+.PHONY : __idf_esp_hal_i2c/fast
+
+#=============================================================================
+# Target rules for targets named __idf_esp_ringbuf
+
+# Build rule for target.
+__idf_esp_ringbuf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_ringbuf
+.PHONY : __idf_esp_ringbuf
+
+# fast build rule for target.
+__idf_esp_ringbuf/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build
+.PHONY : __idf_esp_ringbuf/fast
+
+#=============================================================================
+# Target rules for targets named __idf_esp_driver_i2c
+
+# Build rule for target.
+__idf_esp_driver_i2c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_i2c
+.PHONY : __idf_esp_driver_i2c
+
+# fast build rule for target.
+__idf_esp_driver_i2c/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/build.make esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/build
+.PHONY : __idf_esp_driver_i2c/fast
+
+#=============================================================================
+# Target rules for targets named __idf_esp_psram
+
+# Build rule for target.
+__idf_esp_psram: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_psram
+.PHONY : __idf_esp_psram
+
+# fast build rule for target.
+__idf_esp_psram/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build
+.PHONY : __idf_esp_psram/fast
+
+#=============================================================================
+# Target rules for targets named __idf_esp_driver_spi
+
+# Build rule for target.
+__idf_esp_driver_spi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_spi
+.PHONY : __idf_esp_driver_spi
+
+# fast build rule for target.
+__idf_esp_driver_spi/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/build.make esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/build
+.PHONY : __idf_esp_driver_spi/fast
+
+#=============================================================================
+# Target rules for targets named __idf_esp_hal_lcd
+
+# Build rule for target.
+__idf_esp_hal_lcd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_hal_lcd
+.PHONY : __idf_esp_hal_lcd
+
+# fast build rule for target.
+__idf_esp_hal_lcd/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_lcd/CMakeFiles/__idf_esp_hal_lcd.dir/build.make esp-idf/esp_hal_lcd/CMakeFiles/__idf_esp_hal_lcd.dir/build
+.PHONY : __idf_esp_hal_lcd/fast
+
+#=============================================================================
+# Target rules for targets named __idf_esp_driver_i2s
+
+# Build rule for target.
+__idf_esp_driver_i2s: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_i2s
+.PHONY : __idf_esp_driver_i2s
+
+# fast build rule for target.
+__idf_esp_driver_i2s/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build
+.PHONY : __idf_esp_driver_i2s/fast
+
+#=============================================================================
+# Target rules for targets named __idf_esp_lcd
+
+# Build rule for target.
+__idf_esp_lcd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_lcd
+.PHONY : __idf_esp_lcd
+
+# fast build rule for target.
+__idf_esp_lcd/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build
+.PHONY : __idf_esp_lcd/fast
+
+#=============================================================================
+# Target rules for targets named __idf_esp_hal_twai
+
+# Build rule for target.
+__idf_esp_hal_twai: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_hal_twai
+.PHONY : __idf_esp_hal_twai
+
+# fast build rule for target.
+__idf_esp_hal_twai/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/build.make esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/build
+.PHONY : __idf_esp_hal_twai/fast
+
+#=============================================================================
+# Target rules for targets named __idf_driver
+
+# Build rule for target.
+__idf_driver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_driver
+.PHONY : __idf_driver
+
+# fast build rule for target.
+__idf_driver/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/build
+.PHONY : __idf_driver/fast
+
+#=============================================================================
 # Target rules for targets named __idf_bsp
 
 # Build rule for target.
@@ -1456,26 +1586,36 @@ help:
 	@echo "... __idf_bsp"
 	@echo "... __idf_core"
 	@echo "... __idf_cxx"
+	@echo "... __idf_driver"
 	@echo "... __idf_efuse"
 	@echo "... __idf_esp_app_format"
 	@echo "... __idf_esp_bootloader_format"
 	@echo "... __idf_esp_common"
 	@echo "... __idf_esp_driver_gpio"
+	@echo "... __idf_esp_driver_i2c"
+	@echo "... __idf_esp_driver_i2s"
+	@echo "... __idf_esp_driver_spi"
 	@echo "... __idf_esp_hal_ana_conv"
 	@echo "... __idf_esp_hal_gpio"
 	@echo "... __idf_esp_hal_gpspi"
+	@echo "... __idf_esp_hal_i2c"
 	@echo "... __idf_esp_hal_i2s"
+	@echo "... __idf_esp_hal_lcd"
 	@echo "... __idf_esp_hal_mspi"
 	@echo "... __idf_esp_hal_pmu"
 	@echo "... __idf_esp_hal_timg"
 	@echo "... __idf_esp_hal_touch_sens"
+	@echo "... __idf_esp_hal_twai"
 	@echo "... __idf_esp_hal_uart"
 	@echo "... __idf_esp_hal_wdt"
 	@echo "... __idf_esp_hw_support"
+	@echo "... __idf_esp_lcd"
 	@echo "... __idf_esp_libc"
 	@echo "... __idf_esp_mm"
 	@echo "... __idf_esp_partition"
 	@echo "... __idf_esp_pm"
+	@echo "... __idf_esp_psram"
+	@echo "... __idf_esp_ringbuf"
 	@echo "... __idf_esp_rom"
 	@echo "... __idf_esp_security"
 	@echo "... __idf_esp_stdio"

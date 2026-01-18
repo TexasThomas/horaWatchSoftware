@@ -86,17 +86,33 @@ esp-idf/bsp/CMakeFiles/__idf_bsp.dir/bsp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_bsp.dir/bsp.c.s"
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/bsp && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/bsp.c -o CMakeFiles/__idf_bsp.dir/bsp.c.s
 
+esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/flags.make
+esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c
+esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/bsp && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj -MF CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj.d -o CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c
+
+esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/bsp && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c > CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.i
+
+esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/bsp && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c -o CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.s
+
 # Object files for target __idf_bsp
 __idf_bsp_OBJECTS = \
-"CMakeFiles/__idf_bsp.dir/bsp.c.obj"
+"CMakeFiles/__idf_bsp.dir/bsp.c.obj" \
+"CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj"
 
 # External object files for target __idf_bsp
 __idf_bsp_EXTERNAL_OBJECTS =
 
 esp-idf/bsp/libbsp.a: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/bsp.c.obj
+esp-idf/bsp/libbsp.a: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj
 esp-idf/bsp/libbsp.a: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build.make
 esp-idf/bsp/libbsp.a: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libbsp.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libbsp.a"
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/bsp && $(CMAKE_COMMAND) -P CMakeFiles/__idf_bsp.dir/cmake_clean_target.cmake
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/bsp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_bsp.dir/link.txt --verbose=$(VERBOSE)
 

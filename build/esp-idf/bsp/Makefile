@@ -175,6 +175,30 @@ __idf_bsp/fast:
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build.make esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build
 .PHONY : __idf_bsp/fast
 
+boards/generic_spi/display_spi.obj: boards/generic_spi/display_spi.c.obj
+.PHONY : boards/generic_spi/display_spi.obj
+
+# target to build an object file
+boards/generic_spi/display_spi.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build.make esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj
+.PHONY : boards/generic_spi/display_spi.c.obj
+
+boards/generic_spi/display_spi.i: boards/generic_spi/display_spi.c.i
+.PHONY : boards/generic_spi/display_spi.i
+
+# target to preprocess a source file
+boards/generic_spi/display_spi.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build.make esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.i
+.PHONY : boards/generic_spi/display_spi.c.i
+
+boards/generic_spi/display_spi.s: boards/generic_spi/display_spi.c.s
+.PHONY : boards/generic_spi/display_spi.s
+
+# target to generate assembly for a file
+boards/generic_spi/display_spi.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build.make esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.s
+.PHONY : boards/generic_spi/display_spi.c.s
+
 bsp.obj: bsp.c.obj
 .PHONY : bsp.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_bsp"
+	@echo "... boards/generic_spi/display_spi.obj"
+	@echo "... boards/generic_spi/display_spi.i"
+	@echo "... boards/generic_spi/display_spi.s"
 	@echo "... bsp.obj"
 	@echo "... bsp.i"
 	@echo "... bsp.s"
