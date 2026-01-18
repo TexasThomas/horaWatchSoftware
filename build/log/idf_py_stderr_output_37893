@@ -1,0 +1,79 @@
+Command: make -j 10 all
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:19:8: error: unknown type name 'lv_disp_draw_buf_t'; did you mean 'lv_draw_buf_t'?
+   19 | static lv_disp_draw_buf_t s_draw_buf;
+      |        ^~~~~~~~~~~~~~~~~~
+      |        lv_draw_buf_t
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:25:25: error: unknown type name 'lv_disp_drv_t'; did you mean 'lv_fs_drv_t'?
+   25 | static void lv_flush_cb(lv_disp_drv_t *drv, const lv_area_t *area, lv_color_t *color_map)
+      |                         ^~~~~~~~~~~~~
+      |                         lv_fs_drv_t
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c: In function 'panel_init_spi':
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:83:10: error: 'esp_lcd_panel_dev_config_t' has no member named 'rgb_endian'
+   83 |         .rgb_endian = LCD_RGB_ENDIAN_RGB,
+      |          ^~~~~~~~~~
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:83:23: error: 'LCD_RGB_ENDIAN_RGB' undeclared (first use in this function); did you mean 'LCD_RGB_DATA_ENDIAN_BIG'?
+   83 |         .rgb_endian = LCD_RGB_ENDIAN_RGB,
+      |                       ^~~~~~~~~~~~~~~~~~
+      |                       LCD_RGB_DATA_ENDIAN_BIG
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:83:23: note: each undeclared identifier is reported only once for each function it appears in
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c: In function 'bsp_display_init_and_register_lvgl':
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:139:14: error: implicit declaration of function 'heap_caps_malloc' [-Wimplicit-function-declaration]
+  139 |     s_buf1 = heap_caps_malloc(buf_pixels * sizeof(lv_color_t), MALLOC_CAP_DMA);
+      |              ^~~~~~~~~~~~~~~~
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:139:64: error: 'MALLOC_CAP_DMA' undeclared (first use in this function)
+  139 |     s_buf1 = heap_caps_malloc(buf_pixels * sizeof(lv_color_t), MALLOC_CAP_DMA);
+      |                                                                ^~~~~~~~~~~~~~
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:143:5: error: implicit declaration of function 'lv_disp_draw_buf_init'; did you mean 'lv_draw_buf_init'? [-Wimplicit-function-declaration]
+  143 |     lv_disp_draw_buf_init(&s_draw_buf, s_buf1, s_buf2, buf_pixels);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+      |     lv_draw_buf_init
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:146:12: error: unknown type name 'lv_disp_drv_t'; did you mean 'lv_fs_drv_t'?
+  146 |     static lv_disp_drv_t disp_drv;
+      |            ^~~~~~~~~~~~~
+      |            lv_fs_drv_t
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:147:5: error: implicit declaration of function 'lv_disp_drv_init'; did you mean 'lv_fs_drv_init'? [-Wimplicit-function-declaration]
+  147 |     lv_disp_drv_init(&disp_drv);
+      |     ^~~~~~~~~~~~~~~~
+      |     lv_fs_drv_init
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:148:13: error: request for member 'hor_res' in something not a structure or union
+  148 |     disp_drv.hor_res = DISP_HOR_RES;
+      |             ^
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:149:13: error: request for member 'ver_res' in something not a structure or union
+  149 |     disp_drv.ver_res = DISP_VER_RES;
+      |             ^
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:150:13: error: request for member 'flush_cb' in something not a structure or union
+  150 |     disp_drv.flush_cb = lv_flush_cb;
+      |             ^
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:150:25: error: 'lv_flush_cb' undeclared (first use in this function)
+  150 |     disp_drv.flush_cb = lv_flush_cb;
+      |                         ^~~~~~~~~~~
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:151:13: error: request for member 'draw_buf' in something not a structure or union
+  151 |     disp_drv.draw_buf = &s_draw_buf;
+      |             ^
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:153:14: error: implicit declaration of function 'lv_disp_drv_register'; did you mean 'lv_fs_drv_register'? [-Wimplicit-function-declaration]
+  153 |     s_disp = lv_disp_drv_register(&disp_drv);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              lv_fs_drv_register
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c:153:12: error: assignment to 'lv_disp_t *' {aka 'struct _lv_display_t *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  153 |     s_disp = lv_disp_drv_register(&disp_drv);
+      |            ^
+make[2]: *** [esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj] Error 1
+make[1]: *** [esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

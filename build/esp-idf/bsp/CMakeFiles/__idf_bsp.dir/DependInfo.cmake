@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/boards/generic_spi/display_spi.c" "esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj" "gcc" "esp-idf/bsp/CMakeFiles/__idf_bsp.dir/boards/generic_spi/display_spi.c.obj.d"
   "/Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/bsp.c" "esp-idf/bsp/CMakeFiles/__idf_bsp.dir/bsp.c.obj" "gcc" "esp-idf/bsp/CMakeFiles/__idf_bsp.dir/bsp.c.obj.d"
   )
 

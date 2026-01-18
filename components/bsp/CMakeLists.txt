@@ -1,5 +1,12 @@
 idf_component_register(
-    SRCS "bsp.c"
-    INCLUDE_DIRS "include"
+    SRCS
+        "bsp.c"
+        "boards/generic_spi/display_spi.c"
+    INCLUDE_DIRS
+        "include"
+        "boards/generic_spi"
+    REQUIRES
+        esp_lcd
+        driver
+        lvgl
 )
-
