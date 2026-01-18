@@ -1,0 +1,19 @@
+# Large files
+Alexander_the_Great_Ny_Carlsberg_Glyptotek_IN574_n1.c
+
+# Build directories
+build/
+*.o
+*.obj
+*.a
+*.bin
+*.elf
+*.map
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
