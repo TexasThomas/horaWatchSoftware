@@ -1,0 +1,17 @@
+Command: cmake -G Unix Makefiles -B /Users/markgrun/Watch18.1/horaWatchSoftware/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/markgrun/.espressif/python_env/idf6.1_py3.14_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /Users/markgrun/Watch18.1/horaWatchSoftware
+info: Default value for LV_FONT_MONTSERRAT_12 in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+info: Default value for LV_FONT_MONTSERRAT_18 in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+info: Default value for LV_FONT_MONTSERRAT_48 in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+info: Default value for LV_USE_DEMO_WIDGETS in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 

@@ -1,0 +1,9 @@
+Command: make -j 10 all
+info: Default value for LV_FONT_MONTSERRAT_12 in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+info: Default value for LV_FONT_MONTSERRAT_18 in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+info: Default value for LV_FONT_MONTSERRAT_48 in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+info: Default value for LV_USE_DEMO_WIDGETS in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).

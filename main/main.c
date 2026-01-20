@@ -69,5 +69,10 @@ void app_main(void)
     xSemaphoreGive(s_lvgl_mutex);
 
     // LVGL task pinned to core 1 (keeps main free)
-    xTaskCreatePinnedToCore(lvgl_task, "lvgl", 4096, NULL, 5, NULL, 1);
+    xTaskCreatePinnedToCore(lvgl_task, "lvgl", 8192, NULL, 5, NULL, 1);
+    
+    // Keep app_main alive - required for LVGL demo timers
+    while (1) {
+        vTaskDelay(pdMS_TO_TICKS(1000));
+    }
 }

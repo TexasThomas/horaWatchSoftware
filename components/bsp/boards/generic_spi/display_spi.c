@@ -107,9 +107,14 @@ static esp_err_t panel_init_spi(void)
     ESP_RETURN_ON_ERROR(esp_lcd_panel_init(s_panel), TAG, "panel_init failed");
     ESP_RETURN_ON_ERROR(esp_lcd_panel_disp_on_off(s_panel, true), TAG, "disp_on_off failed");
 
-    // 240x280 ST7789 panels usually need a vertical offset
-
-     esp_lcd_panel_set_gap(s_panel, 0, 20);
+    // 240x280 ST7789 panels: Set gap for correct pixel alignment
+    // Gap (x, y) = (0, 20) - vertical offset to center visible area
+    // This ensures pixel-perfect rendering without clipping
+    esp_lcd_panel_set_gap(s_panel, 0, 20);
+    
+    // Invert colors for correct display on ST7789
+    // Without this, colors appear as complementary (inverted)
+    esp_lcd_panel_invert_color(s_panel, true);
 
     // Rotation (common mapping; you may tweak after first image)
 #if (DISP_ROTATION_DEG == 0)
@@ -148,18 +153,26 @@ void bsp_display_init_and_register_lvgl(void)
     assert(s_buf1 && s_buf2);
 
     // Wrap raw buffers into LVGL draw buffer objects
-    lv_draw_buf_init(&s_draw_buf1, DISP_HOR_RES, buf_h, LV_COLOR_FORMAT_RGB565, 0, s_buf1, buf_bytes);
-    lv_draw_buf_init(&s_draw_buf2, DISP_HOR_RES, buf_h, LV_COLOR_FORMAT_RGB565, 0, s_buf2, buf_bytes);
+    // RGB565_SWAPPED: Byte-swap for Big-Endian displays (ST7789)
+    // Converts [0xef, 0x7b] -> [0x7b, 0xef] for correct color rendering
+    lv_draw_buf_init(&s_draw_buf1, DISP_HOR_RES, buf_h, LV_COLOR_FORMAT_RGB565_SWAPPED, 0, s_buf1, buf_bytes);
+    lv_draw_buf_init(&s_draw_buf2, DISP_HOR_RES, buf_h, LV_COLOR_FORMAT_RGB565_SWAPPED, 0, s_buf2, buf_bytes);
 
     // Create display and set flush callback
+    // NO SCALING - native resolution for pixel-perfect rendering
     s_display = lv_display_create(DISP_HOR_RES, DISP_VER_RES);
     lv_display_set_flush_cb(s_display, lv_flush_cb);
+    
+    // Set color format to RGB565 with byte-swap for ST7789 (Big-Endian)
+    // This fixes the color byte order: ESP32 (Little-Endian) -> ST7789 (Big-Endian)
+    lv_display_set_color_format(s_display, LV_COLOR_FORMAT_RGB565_SWAPPED);
 
     // Provide the two draw buffers (no extra args in your LVGL)
     lv_display_set_draw_buffers(s_display, &s_draw_buf1, &s_draw_buf2);
 
     // Render mode: in this LVGL variant it's usually configured by the buffers themselves;
     // partial rendering is implied by smaller buffer height.
+    // Buffer height 40 = ~30 FPS with stable rendering
 
-    ESP_LOGI(TAG, "LVGL display registered (%dx%d)", DISP_HOR_RES, DISP_VER_RES);
+    ESP_LOGI(TAG, "LVGL display registered (%dx%d, RGB565, no scaling)", DISP_HOR_RES, DISP_VER_RES);
 }

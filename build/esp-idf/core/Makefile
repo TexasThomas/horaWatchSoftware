@@ -223,6 +223,30 @@ app_state.c.s:
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/app_state.c.s
 .PHONY : app_state.c.s
 
+ui/ui_bindings.obj: ui/ui_bindings.c.obj
+.PHONY : ui/ui_bindings.obj
+
+# target to build an object file
+ui/ui_bindings.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_bindings.c.obj
+.PHONY : ui/ui_bindings.c.obj
+
+ui/ui_bindings.i: ui/ui_bindings.c.i
+.PHONY : ui/ui_bindings.i
+
+# target to preprocess a source file
+ui/ui_bindings.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_bindings.c.i
+.PHONY : ui/ui_bindings.c.i
+
+ui/ui_bindings.s: ui/ui_bindings.c.s
+.PHONY : ui/ui_bindings.s
+
+# target to generate assembly for a file
+ui/ui_bindings.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_bindings.c.s
+.PHONY : ui/ui_bindings.c.s
+
 ui/ui_create.obj: ui/ui_create.c.obj
 .PHONY : ui/ui_create.obj
 
@@ -247,6 +271,54 @@ ui/ui_create.c.s:
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_create.c.s
 .PHONY : ui/ui_create.c.s
 
+ui/ui_events.obj: ui/ui_events.c.obj
+.PHONY : ui/ui_events.obj
+
+# target to build an object file
+ui/ui_events.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_events.c.obj
+.PHONY : ui/ui_events.c.obj
+
+ui/ui_events.i: ui/ui_events.c.i
+.PHONY : ui/ui_events.i
+
+# target to preprocess a source file
+ui/ui_events.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_events.c.i
+.PHONY : ui/ui_events.c.i
+
+ui/ui_events.s: ui/ui_events.c.s
+.PHONY : ui/ui_events.s
+
+# target to generate assembly for a file
+ui/ui_events.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_events.c.s
+.PHONY : ui/ui_events.c.s
+
+ui/ui_styles.obj: ui/ui_styles.c.obj
+.PHONY : ui/ui_styles.obj
+
+# target to build an object file
+ui/ui_styles.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_styles.c.obj
+.PHONY : ui/ui_styles.c.obj
+
+ui/ui_styles.i: ui/ui_styles.c.i
+.PHONY : ui/ui_styles.i
+
+# target to preprocess a source file
+ui/ui_styles.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_styles.c.i
+.PHONY : ui/ui_styles.c.i
+
+ui/ui_styles.s: ui/ui_styles.c.s
+.PHONY : ui/ui_styles.s
+
+# target to generate assembly for a file
+ui/ui_styles.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/core/CMakeFiles/__idf_core.dir/build.make esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_styles.c.s
+.PHONY : ui/ui_styles.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,9 +338,18 @@ help:
 	@echo "... app_state.obj"
 	@echo "... app_state.i"
 	@echo "... app_state.s"
+	@echo "... ui/ui_bindings.obj"
+	@echo "... ui/ui_bindings.i"
+	@echo "... ui/ui_bindings.s"
 	@echo "... ui/ui_create.obj"
 	@echo "... ui/ui_create.i"
 	@echo "... ui/ui_create.s"
+	@echo "... ui/ui_events.obj"
+	@echo "... ui/ui_events.i"
+	@echo "... ui/ui_events.s"
+	@echo "... ui/ui_styles.obj"
+	@echo "... ui/ui_styles.i"
+	@echo "... ui/ui_styles.s"
 .PHONY : help
 
 

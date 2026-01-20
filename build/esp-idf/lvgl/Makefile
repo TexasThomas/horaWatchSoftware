@@ -199,6 +199,222 @@ demos/lv_demos.c.s:
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/lv_demos.c.s
 .PHONY : demos/lv_demos.c.s
 
+demos/widgets/assets/img_clothes.obj: demos/widgets/assets/img_clothes.c.obj
+.PHONY : demos/widgets/assets/img_clothes.obj
+
+# target to build an object file
+demos/widgets/assets/img_clothes.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj
+.PHONY : demos/widgets/assets/img_clothes.c.obj
+
+demos/widgets/assets/img_clothes.i: demos/widgets/assets/img_clothes.c.i
+.PHONY : demos/widgets/assets/img_clothes.i
+
+# target to preprocess a source file
+demos/widgets/assets/img_clothes.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.i
+.PHONY : demos/widgets/assets/img_clothes.c.i
+
+demos/widgets/assets/img_clothes.s: demos/widgets/assets/img_clothes.c.s
+.PHONY : demos/widgets/assets/img_clothes.s
+
+# target to generate assembly for a file
+demos/widgets/assets/img_clothes.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.s
+.PHONY : demos/widgets/assets/img_clothes.c.s
+
+demos/widgets/assets/img_demo_widgets_avatar.obj: demos/widgets/assets/img_demo_widgets_avatar.c.obj
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.obj
+
+# target to build an object file
+demos/widgets/assets/img_demo_widgets_avatar.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.c.obj
+
+demos/widgets/assets/img_demo_widgets_avatar.i: demos/widgets/assets/img_demo_widgets_avatar.c.i
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.i
+
+# target to preprocess a source file
+demos/widgets/assets/img_demo_widgets_avatar.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.i
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.c.i
+
+demos/widgets/assets/img_demo_widgets_avatar.s: demos/widgets/assets/img_demo_widgets_avatar.c.s
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.s
+
+# target to generate assembly for a file
+demos/widgets/assets/img_demo_widgets_avatar.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.s
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.c.s
+
+demos/widgets/assets/img_demo_widgets_needle.obj: demos/widgets/assets/img_demo_widgets_needle.c.obj
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.obj
+
+# target to build an object file
+demos/widgets/assets/img_demo_widgets_needle.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.c.obj
+
+demos/widgets/assets/img_demo_widgets_needle.i: demos/widgets/assets/img_demo_widgets_needle.c.i
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.i
+
+# target to preprocess a source file
+demos/widgets/assets/img_demo_widgets_needle.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.i
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.c.i
+
+demos/widgets/assets/img_demo_widgets_needle.s: demos/widgets/assets/img_demo_widgets_needle.c.s
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.s
+
+# target to generate assembly for a file
+demos/widgets/assets/img_demo_widgets_needle.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.s
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.c.s
+
+demos/widgets/assets/img_lvgl_logo.obj: demos/widgets/assets/img_lvgl_logo.c.obj
+.PHONY : demos/widgets/assets/img_lvgl_logo.obj
+
+# target to build an object file
+demos/widgets/assets/img_lvgl_logo.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj
+.PHONY : demos/widgets/assets/img_lvgl_logo.c.obj
+
+demos/widgets/assets/img_lvgl_logo.i: demos/widgets/assets/img_lvgl_logo.c.i
+.PHONY : demos/widgets/assets/img_lvgl_logo.i
+
+# target to preprocess a source file
+demos/widgets/assets/img_lvgl_logo.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.i
+.PHONY : demos/widgets/assets/img_lvgl_logo.c.i
+
+demos/widgets/assets/img_lvgl_logo.s: demos/widgets/assets/img_lvgl_logo.c.s
+.PHONY : demos/widgets/assets/img_lvgl_logo.s
+
+# target to generate assembly for a file
+demos/widgets/assets/img_lvgl_logo.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.s
+.PHONY : demos/widgets/assets/img_lvgl_logo.c.s
+
+demos/widgets/lv_demo_widgets.obj: demos/widgets/lv_demo_widgets.c.obj
+.PHONY : demos/widgets/lv_demo_widgets.obj
+
+# target to build an object file
+demos/widgets/lv_demo_widgets.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj
+.PHONY : demos/widgets/lv_demo_widgets.c.obj
+
+demos/widgets/lv_demo_widgets.i: demos/widgets/lv_demo_widgets.c.i
+.PHONY : demos/widgets/lv_demo_widgets.i
+
+# target to preprocess a source file
+demos/widgets/lv_demo_widgets.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.i
+.PHONY : demos/widgets/lv_demo_widgets.c.i
+
+demos/widgets/lv_demo_widgets.s: demos/widgets/lv_demo_widgets.c.s
+.PHONY : demos/widgets/lv_demo_widgets.s
+
+# target to generate assembly for a file
+demos/widgets/lv_demo_widgets.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.s
+.PHONY : demos/widgets/lv_demo_widgets.c.s
+
+demos/widgets/lv_demo_widgets_analytics.obj: demos/widgets/lv_demo_widgets_analytics.c.obj
+.PHONY : demos/widgets/lv_demo_widgets_analytics.obj
+
+# target to build an object file
+demos/widgets/lv_demo_widgets_analytics.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj
+.PHONY : demos/widgets/lv_demo_widgets_analytics.c.obj
+
+demos/widgets/lv_demo_widgets_analytics.i: demos/widgets/lv_demo_widgets_analytics.c.i
+.PHONY : demos/widgets/lv_demo_widgets_analytics.i
+
+# target to preprocess a source file
+demos/widgets/lv_demo_widgets_analytics.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.i
+.PHONY : demos/widgets/lv_demo_widgets_analytics.c.i
+
+demos/widgets/lv_demo_widgets_analytics.s: demos/widgets/lv_demo_widgets_analytics.c.s
+.PHONY : demos/widgets/lv_demo_widgets_analytics.s
+
+# target to generate assembly for a file
+demos/widgets/lv_demo_widgets_analytics.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.s
+.PHONY : demos/widgets/lv_demo_widgets_analytics.c.s
+
+demos/widgets/lv_demo_widgets_components.obj: demos/widgets/lv_demo_widgets_components.c.obj
+.PHONY : demos/widgets/lv_demo_widgets_components.obj
+
+# target to build an object file
+demos/widgets/lv_demo_widgets_components.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj
+.PHONY : demos/widgets/lv_demo_widgets_components.c.obj
+
+demos/widgets/lv_demo_widgets_components.i: demos/widgets/lv_demo_widgets_components.c.i
+.PHONY : demos/widgets/lv_demo_widgets_components.i
+
+# target to preprocess a source file
+demos/widgets/lv_demo_widgets_components.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.i
+.PHONY : demos/widgets/lv_demo_widgets_components.c.i
+
+demos/widgets/lv_demo_widgets_components.s: demos/widgets/lv_demo_widgets_components.c.s
+.PHONY : demos/widgets/lv_demo_widgets_components.s
+
+# target to generate assembly for a file
+demos/widgets/lv_demo_widgets_components.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.s
+.PHONY : demos/widgets/lv_demo_widgets_components.c.s
+
+demos/widgets/lv_demo_widgets_profile.obj: demos/widgets/lv_demo_widgets_profile.c.obj
+.PHONY : demos/widgets/lv_demo_widgets_profile.obj
+
+# target to build an object file
+demos/widgets/lv_demo_widgets_profile.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj
+.PHONY : demos/widgets/lv_demo_widgets_profile.c.obj
+
+demos/widgets/lv_demo_widgets_profile.i: demos/widgets/lv_demo_widgets_profile.c.i
+.PHONY : demos/widgets/lv_demo_widgets_profile.i
+
+# target to preprocess a source file
+demos/widgets/lv_demo_widgets_profile.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.i
+.PHONY : demos/widgets/lv_demo_widgets_profile.c.i
+
+demos/widgets/lv_demo_widgets_profile.s: demos/widgets/lv_demo_widgets_profile.c.s
+.PHONY : demos/widgets/lv_demo_widgets_profile.s
+
+# target to generate assembly for a file
+demos/widgets/lv_demo_widgets_profile.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.s
+.PHONY : demos/widgets/lv_demo_widgets_profile.c.s
+
+demos/widgets/lv_demo_widgets_shop.obj: demos/widgets/lv_demo_widgets_shop.c.obj
+.PHONY : demos/widgets/lv_demo_widgets_shop.obj
+
+# target to build an object file
+demos/widgets/lv_demo_widgets_shop.c.obj:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj
+.PHONY : demos/widgets/lv_demo_widgets_shop.c.obj
+
+demos/widgets/lv_demo_widgets_shop.i: demos/widgets/lv_demo_widgets_shop.c.i
+.PHONY : demos/widgets/lv_demo_widgets_shop.i
+
+# target to preprocess a source file
+demos/widgets/lv_demo_widgets_shop.c.i:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.i
+.PHONY : demos/widgets/lv_demo_widgets_shop.c.i
+
+demos/widgets/lv_demo_widgets_shop.s: demos/widgets/lv_demo_widgets_shop.c.s
+.PHONY : demos/widgets/lv_demo_widgets_shop.s
+
+# target to generate assembly for a file
+demos/widgets/lv_demo_widgets_shop.c.s:
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.s
+.PHONY : demos/widgets/lv_demo_widgets_shop.c.s
+
 examples/anim/lv_example_anim_1.obj: examples/anim/lv_example_anim_1.c.obj
 .PHONY : examples/anim/lv_example_anim_1.obj
 
@@ -20015,6 +20231,33 @@ help:
 	@echo "... demos/lv_demos.obj"
 	@echo "... demos/lv_demos.i"
 	@echo "... demos/lv_demos.s"
+	@echo "... demos/widgets/assets/img_clothes.obj"
+	@echo "... demos/widgets/assets/img_clothes.i"
+	@echo "... demos/widgets/assets/img_clothes.s"
+	@echo "... demos/widgets/assets/img_demo_widgets_avatar.obj"
+	@echo "... demos/widgets/assets/img_demo_widgets_avatar.i"
+	@echo "... demos/widgets/assets/img_demo_widgets_avatar.s"
+	@echo "... demos/widgets/assets/img_demo_widgets_needle.obj"
+	@echo "... demos/widgets/assets/img_demo_widgets_needle.i"
+	@echo "... demos/widgets/assets/img_demo_widgets_needle.s"
+	@echo "... demos/widgets/assets/img_lvgl_logo.obj"
+	@echo "... demos/widgets/assets/img_lvgl_logo.i"
+	@echo "... demos/widgets/assets/img_lvgl_logo.s"
+	@echo "... demos/widgets/lv_demo_widgets.obj"
+	@echo "... demos/widgets/lv_demo_widgets.i"
+	@echo "... demos/widgets/lv_demo_widgets.s"
+	@echo "... demos/widgets/lv_demo_widgets_analytics.obj"
+	@echo "... demos/widgets/lv_demo_widgets_analytics.i"
+	@echo "... demos/widgets/lv_demo_widgets_analytics.s"
+	@echo "... demos/widgets/lv_demo_widgets_components.obj"
+	@echo "... demos/widgets/lv_demo_widgets_components.i"
+	@echo "... demos/widgets/lv_demo_widgets_components.s"
+	@echo "... demos/widgets/lv_demo_widgets_profile.obj"
+	@echo "... demos/widgets/lv_demo_widgets_profile.i"
+	@echo "... demos/widgets/lv_demo_widgets_profile.s"
+	@echo "... demos/widgets/lv_demo_widgets_shop.obj"
+	@echo "... demos/widgets/lv_demo_widgets_shop.i"
+	@echo "... demos/widgets/lv_demo_widgets_shop.s"
 	@echo "... examples/anim/lv_example_anim_1.obj"
 	@echo "... examples/anim/lv_example_anim_1.i"
 	@echo "... examples/anim/lv_example_anim_1.s"

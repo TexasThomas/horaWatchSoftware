@@ -3,6 +3,9 @@ idf_component_register(
         "app.c"
         "app_state.c"
         "ui/ui_create.c"
+        "ui/ui_styles.c"
+        "ui/ui_bindings.c"
+        "ui/ui_events.c"
     INCLUDE_DIRS
         "include"
         "ui"

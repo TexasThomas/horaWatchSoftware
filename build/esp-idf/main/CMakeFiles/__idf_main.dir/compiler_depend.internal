@@ -36,6 +36,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
  /Users/markgrun/Watch18.1/horaWatchSoftware/build/config/sdkconfig.h
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/include/bsp.h
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/include/app.h
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/include/app_state.h
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/lv_version.h
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/lvgl.h
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/core/lv_obj_style.h
@@ -485,6 +486,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
  /Users/markgrun/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
  /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h
  /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_system.h
+ /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_task_wdt.h
  /Users/markgrun/esp/esp-idf/components/esp_timer/include/esp_timer.h
  /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h

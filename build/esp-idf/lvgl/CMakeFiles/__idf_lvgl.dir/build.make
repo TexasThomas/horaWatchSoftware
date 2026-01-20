@@ -11636,6 +11636,132 @@ esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/lv_demos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/lv_demos.c.s"
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/lv_demos.c -o CMakeFiles/__idf_lvgl.dir/demos/lv_demos.c.s
 
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/flags.make
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_clothes.c
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_827) "Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj -MF CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj.d -o CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_clothes.c
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_clothes.c > CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.i
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_clothes.c -o CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.s
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/flags.make
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_828) "Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj -MF CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj.d -o CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c > CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.i
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c -o CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.s
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/flags.make
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_demo_widgets_needle.c
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_829) "Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj -MF CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj.d -o CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_demo_widgets_needle.c
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_demo_widgets_needle.c > CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.i
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_demo_widgets_needle.c -o CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.s
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/flags.make
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_lvgl_logo.c
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_830) "Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj -MF CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj.d -o CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_lvgl_logo.c
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_lvgl_logo.c > CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.i
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/assets/img_lvgl_logo.c -o CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.s
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/flags.make
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets.c
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_831) "Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj -MF CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj.d -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets.c
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets.c > CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.i
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets.c -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.s
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/flags.make
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_analytics.c
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_832) "Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj -MF CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj.d -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_analytics.c
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_analytics.c > CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.i
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_analytics.c -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.s
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/flags.make
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_components.c
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_833) "Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj -MF CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj.d -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_components.c
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_components.c > CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.i
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_components.c -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.s
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/flags.make
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_profile.c
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_834) "Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj -MF CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj.d -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_profile.c
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_profile.c > CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.i
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_profile.c -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.s
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/flags.make
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_shop.c
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_835) "Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj -MF CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj.d -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj -c /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_shop.c
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.i"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_shop.c > CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.i
+
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.s"
+	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets_shop.c -o CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.s
+
 # Object files for target __idf_lvgl
 __idf_lvgl_OBJECTS = \
 "CMakeFiles/__idf_lvgl.dir/src/core/lv_group.c.obj" \
@@ -12463,7 +12589,16 @@ __idf_lvgl_OBJECTS = \
 "CMakeFiles/__idf_lvgl.dir/examples/widgets/textarea/lv_example_textarea_4.c.obj" \
 "CMakeFiles/__idf_lvgl.dir/examples/widgets/tileview/lv_example_tileview_1.c.obj" \
 "CMakeFiles/__idf_lvgl.dir/examples/widgets/win/lv_example_win_1.c.obj" \
-"CMakeFiles/__idf_lvgl.dir/demos/lv_demos.c.obj"
+"CMakeFiles/__idf_lvgl.dir/demos/lv_demos.c.obj" \
+"CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj" \
+"CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj" \
+"CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj" \
+"CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj" \
+"CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj" \
+"CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj" \
+"CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj" \
+"CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj" \
+"CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj"
 
 # External object files for target __idf_lvgl
 __idf_lvgl_EXTERNAL_OBJECTS =
@@ -13294,9 +13429,18 @@ esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/examples/widgets/
 esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/examples/widgets/tileview/lv_example_tileview_1.c.obj
 esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/examples/widgets/win/lv_example_win_1.c.obj
 esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/lv_demos.c.obj
+esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_clothes.c.obj
+esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj
+esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_demo_widgets_needle.c.obj
+esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/assets/img_lvgl_logo.c.obj
+esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets.c.obj
+esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_analytics.c.obj
+esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_components.c.obj
+esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_profile.c.obj
+esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/widgets/lv_demo_widgets_shop.c.obj
 esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/build.make
 esp-idf/lvgl/liblvgl.a: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_827) "Linking C static library liblvgl.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_836) "Linking C static library liblvgl.a"
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && $(CMAKE_COMMAND) -P CMakeFiles/__idf_lvgl.dir/cmake_clean_target.cmake
 	cd /Users/markgrun/Watch18.1/horaWatchSoftware/build/esp-idf/lvgl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_lvgl.dir/link.txt --verbose=$(VERBOSE)
 

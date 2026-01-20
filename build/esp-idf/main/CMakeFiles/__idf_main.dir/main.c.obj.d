@@ -563,4 +563,5 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/lv_api_map_v9_3.h \
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/lv_api_map_v9_4.h \
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/include/bsp.h \
- /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/include/app.h
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/include/app.h \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/include/app_state.h

@@ -475,4 +475,8 @@ esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/demos/lv_demos.c.obj: \
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/../src/lv_api_map_v9_1.h \
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/../src/lv_api_map_v9_2.h \
  /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/../src/lv_api_map_v9_3.h \
- /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/../src/lv_api_map_v9_4.h
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/../src/lv_api_map_v9_4.h \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/lv_demo_widgets.h \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/../lv_demos.h \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/../../src/draw/lv_draw.h \
+ /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/demos/widgets/../../src/draw/lv_draw_triangle.h

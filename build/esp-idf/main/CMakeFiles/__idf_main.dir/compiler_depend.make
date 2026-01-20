@@ -35,6 +35,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
   config/sdkconfig.h \
   /Users/markgrun/Watch18.1/horaWatchSoftware/components/bsp/include/bsp.h \
   /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/include/app.h \
+  /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/include/app_state.h \
   /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/lv_version.h \
   /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/lvgl.h \
   /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/core/lv_obj_style.h \
@@ -484,6 +485,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
   /Users/markgrun/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
   /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
   /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_system.h \
+  /Users/markgrun/esp/esp-idf/components/esp_system/include/esp_task_wdt.h \
   /Users/markgrun/esp/esp-idf/components/esp_timer/include/esp_timer.h \
   /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
   /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
@@ -597,6 +599,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
 /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:
 
 /Users/markgrun/esp/esp-idf/components/esp_timer/include/esp_timer.h:
+
+/Users/markgrun/esp/esp-idf/components/esp_system/include/esp_task_wdt.h:
 
 /Users/markgrun/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
@@ -727,6 +731,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
 /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/lv_init.h:
 
 /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/font/imgfont/lv_imgfont.h:
+
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/core/include/app_state.h:
 
 /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/lv_api_map_v9_4.h:
 
@@ -896,6 +902,14 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
 
 /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/drivers/display/nv3007/lv_nv3007.h:
 
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/misc/lv_area.h:
+
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/tick/lv_tick.h:
+
+/Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h:
+
+/Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/drivers/display/ili9341/lv_ili9341.h:
+
 /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/draw/sw/lv_draw_sw_utils.h:
 
 /Users/markgrun/esp/esp-idf/components/xtensa/include/xt_instr_macros.h:
@@ -909,14 +923,6 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: /Users/markgrun/Watch18.1/hor
 /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/drivers/lv_drivers.h:
 
 /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/draw/snapshot/lv_snapshot.h:
-
-/Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/misc/lv_area.h:
-
-/Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/tick/lv_tick.h:
-
-/Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h:
-
-/Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/drivers/display/ili9341/lv_ili9341.h:
 
 /Users/markgrun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h:
 
