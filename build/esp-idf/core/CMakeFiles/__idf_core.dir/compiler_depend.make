@@ -1463,18 +1463,23 @@ esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_events.c.obj: /Users/markgrun/Watch
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/limits.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+  /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/stdlib.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
+  /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
+  /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+  /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
+  /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h \
   config/sdkconfig.h \
   /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/include/app.h \
@@ -1909,8 +1914,25 @@ esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_events.c.obj: /Users/markgrun/Watch
   /Users/markgrun/Watch18.1/horaWatchSoftware/components/lvgl/src/xml/lv_xml.h \
   /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_assert.h \
   /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_attr.h \
+  /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_compiler.h \
+  /Users/markgrun/esp/esp-idf/components/esp_common/include/esp_macros.h \
   /Users/markgrun/esp/esp-idf/components/esp_libc/platform_include/assert.h \
-  /Users/markgrun/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
+  /Users/markgrun/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+  /Users/markgrun/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_args.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_attr.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_buffer.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_color.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_config.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_format.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_level.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_timestamp.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_log_write.h \
+  /Users/markgrun/esp/esp-idf/components/log/include/esp_private/log_attr.h \
+  /Users/markgrun/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+  /Users/markgrun/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+  /Users/markgrun/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 esp-idf/core/CMakeFiles/__idf_core.dir/ui/ui_styles.c.obj: /Users/markgrun/Watch18.1/horaWatchSoftware/components/core/ui/ui_styles.c \
   /Users/markgrun/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \

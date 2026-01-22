@@ -16,12 +16,21 @@ typedef struct {
     lv_obj_t *lbl_timer_hhmm;      // "00:00" big cyan
     lv_obj_t *lbl_timer_ss;        // "00" small cyan (seconds)
     
-    // Today total
-    lv_obj_t *lbl_today;           // "Today: 2:13:10" yellow
+    // Today total (color changes with category)
+    lv_obj_t *lbl_today;           // "Today: 2:13:10"
     
     // Activity button
     lv_obj_t *btn_activity;
     lv_obj_t *lbl_activity;        // "Reading"
+    
+    // Category picker popup
+    lv_obj_t *picker_container;    // Cyan frame container
+    lv_obj_t *btn_reading;
+    lv_obj_t *lbl_reading;
+    lv_obj_t *btn_business;
+    lv_obj_t *lbl_business;
+    lv_obj_t *btn_studying;
+    lv_obj_t *lbl_studying;
 } ui_handle_t;
 
 /*===========================================================================
@@ -41,7 +50,8 @@ lv_style_t* ui_style_timer_text(void);
 lv_style_t* ui_style_timer_seconds(void);
 lv_style_t* ui_style_today_text(void);
 lv_style_t* ui_style_activity_btn(void);
-lv_style_t* ui_style_activity_text(void);
+lv_style_t* ui_style_picker_frame(void);
+lv_style_t* ui_style_picker_item(void);
 
 /*===========================================================================
  * Create / Bindings / Events
@@ -49,3 +59,13 @@ lv_style_t* ui_style_activity_text(void);
 void ui_create_home(ui_handle_t *ui);
 void ui_bind_home(const app_state_t *state);
 void ui_events_init(ui_handle_t *ui);
+
+/**
+ * @brief Show/hide category picker
+ */
+void ui_show_picker(bool show);
+
+/**
+ * @brief Update colors based on category
+ */
+void ui_update_category_colors(category_t cat);

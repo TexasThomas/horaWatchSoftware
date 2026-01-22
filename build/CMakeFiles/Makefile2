@@ -2238,8 +2238,6 @@ CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
-CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
-CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_hal_lcd/CMakeFiles/__idf_esp_hal_lcd.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
@@ -2248,6 +2246,8 @@ CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/driver/CMakeFiles/__idf_driver
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/core/CMakeFiles/__idf_core.dir/all
 CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
+CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
+CMakeFiles/horaWatchSoftware.elf.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/horaWatchSoftware.elf.dir/build.make CMakeFiles/horaWatchSoftware.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/horaWatchSoftware.elf.dir/build.make CMakeFiles/horaWatchSoftware.elf.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target horaWatchSoftware.elf"
@@ -2444,8 +2444,6 @@ CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_x
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
-CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
-CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_hal_lcd/CMakeFiles/__idf_esp_hal_lcd.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
@@ -2454,6 +2452,8 @@ CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/driver/CMakeFiles/__idf_d
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/core/CMakeFiles/__idf_core.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
+CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
+CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/__ldgen_output_sections.ld.dir/build.make CMakeFiles/__ldgen_output_sections.ld.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/__ldgen_output_sections.ld.dir/build.make CMakeFiles/__ldgen_output_sections.ld.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __ldgen_output_sections.ld"
@@ -2475,8 +2475,6 @@ CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__i
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
-CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
-CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_hal_lcd/CMakeFiles/__idf_esp_hal_lcd.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
@@ -2484,6 +2482,8 @@ CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_hal_twai/CMakeFil
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/core/CMakeFiles/__idf_core.dir/all
+CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
+CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/__ldgen_output_sections.ld.dir/build.make CMakeFiles/__ldgen_output_sections.ld.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target __ldgen_output_sections.ld"
 .PHONY : CMakeFiles/__ldgen_output_sections.ld.dir/codegen
@@ -4839,9 +4839,9 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/clean:
 # Target rules for target esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir
 
 # All Build rule for target.
-esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/all
 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/all
+esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=20 "Built target __idf_esp_timer"
@@ -5134,10 +5134,10 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/clean:
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
-esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
-esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_hal_lcd/CMakeFiles/__idf_esp_hal_lcd.dir/all
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/all
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=13 "Built target __idf_esp_lcd"
@@ -5240,13 +5240,13 @@ esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
-esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
-esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_hal_lcd/CMakeFiles/__idf_esp_hal_lcd.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_hal_twai/CMakeFiles/__idf_esp_hal_twai.dir/all
 esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
+esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
+esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build.make esp-idf/bsp/CMakeFiles/__idf_bsp.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build.make esp-idf/bsp/CMakeFiles/__idf_bsp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_bsp"
@@ -5315,8 +5315,6 @@ esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xten
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_hal_i2c/CMakeFiles/__idf_esp_hal_i2c.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_hal_lcd/CMakeFiles/__idf_esp_hal_lcd.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
@@ -5324,6 +5322,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_hal_twai/CMakeFiles/__id
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/bsp/CMakeFiles/__idf_bsp.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/core/CMakeFiles/__idf_core.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target __idf_main"

@@ -22,6 +22,23 @@ app_state_t* app_get_state(void)
     return &s_state;
 }
 
+void app_toggle_picker(void)
+{
+    s_state.picker_open = !s_state.picker_open;
+    ESP_LOGI(TAG, "Picker %s", s_state.picker_open ? "opened" : "closed");
+    ui_bind_home(&s_state);
+}
+
+void app_set_category(category_t cat)
+{
+    if (cat < CATEGORY_COUNT) {
+        s_state.current_category = cat;
+        s_state.picker_open = false;  // Close picker after selection
+        ESP_LOGI(TAG, "Category changed to: %s", app_get_category_name(cat));
+        ui_bind_home(&s_state);
+    }
+}
+
 void app_update_timer(const char *hhmm, const char *ss)
 {
     if (hhmm) {
@@ -29,22 +46,6 @@ void app_update_timer(const char *hhmm, const char *ss)
     }
     if (ss) {
         strncpy(s_state.timer_ss, ss, sizeof(s_state.timer_ss) - 1);
-    }
-    ui_bind_home(&s_state);
-}
-
-void app_update_today(const char *total)
-{
-    if (total) {
-        strncpy(s_state.today_total, total, sizeof(s_state.today_total) - 1);
-    }
-    ui_bind_home(&s_state);
-}
-
-void app_set_activity(const char *name)
-{
-    if (name) {
-        strncpy(s_state.activity_name, name, sizeof(s_state.activity_name) - 1);
     }
     ui_bind_home(&s_state);
 }
