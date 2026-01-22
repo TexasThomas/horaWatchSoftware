@@ -5,24 +5,23 @@
 
 /**
  * @brief Application state - single source of truth
- * 
- * UI reads this state, logic modifies it.
- * UI never modifies state directly.
  */
 typedef struct {
-    // Time display (split for large digits)
-    char date_str[8];          // "04-06" format
-    char hour_str[4];          // "09" format
-    char min_str[4];           // "40" format
+    // Timer display (current session)
+    char timer_hhmm[8];        // "00:00" format
+    char timer_ss[4];          // "00" seconds
     
-    // Fitness stats
-    uint32_t steps;            // Step count
-    float kcal;                // Calories burned
-    float km;                  // Distance in km
+    // Today total
+    char today_total[16];      // "2:13:10" format
+    
+    // Current activity
+    char activity_name[16];    // "Reading", "Working", etc.
+    
+    // Session state
+    bool is_running;
     
     // Device status
-    uint8_t battery_pct;       // 0-100
-    bool is_connected;         // BLE connected?
+    uint8_t battery_pct;
 } app_state_t;
 
 /**

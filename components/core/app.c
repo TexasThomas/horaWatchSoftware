@@ -6,20 +6,14 @@
 
 static const char *TAG = "app";
 
-// Single source of truth
 static app_state_t s_state;
 
 void app_init(void)
 {
     ESP_LOGI(TAG, "app_init(): initializing state and UI");
     
-    // Initialize state with defaults
     app_state_init(&s_state);
-    
-    // Initialize UI and display home screen
     ui_init();
-    
-    // Bind initial state to UI
     ui_bind_home(&s_state);
 }
 
@@ -28,21 +22,29 @@ app_state_t* app_get_state(void)
     return &s_state;
 }
 
-void app_update_time(const char *hour, const char *min)
+void app_update_timer(const char *hhmm, const char *ss)
 {
-    if (hour) {
-        strncpy(s_state.hour_str, hour, sizeof(s_state.hour_str) - 1);
+    if (hhmm) {
+        strncpy(s_state.timer_hhmm, hhmm, sizeof(s_state.timer_hhmm) - 1);
     }
-    if (min) {
-        strncpy(s_state.min_str, min, sizeof(s_state.min_str) - 1);
+    if (ss) {
+        strncpy(s_state.timer_ss, ss, sizeof(s_state.timer_ss) - 1);
     }
     ui_bind_home(&s_state);
 }
 
-void app_update_stats(uint32_t steps, float kcal, float km)
+void app_update_today(const char *total)
 {
-    s_state.steps = steps;
-    s_state.kcal = kcal;
-    s_state.km = km;
+    if (total) {
+        strncpy(s_state.today_total, total, sizeof(s_state.today_total) - 1);
+    }
+    ui_bind_home(&s_state);
+}
+
+void app_set_activity(const char *name)
+{
+    if (name) {
+        strncpy(s_state.activity_name, name, sizeof(s_state.activity_name) - 1);
+    }
     ui_bind_home(&s_state);
 }

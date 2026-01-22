@@ -4,91 +4,48 @@
 #include "app_state.h"
 
 /*===========================================================================
- * UI Handle Structure - holds all UI object references
+ * UI Handle Structure
  *===========================================================================*/
 typedef struct {
-    // Home screen
     lv_obj_t *scr_home;
     
-    // Date (top center)
-    lv_obj_t *lbl_date;
+    // Timer frame (cyan border box)
+    lv_obj_t *timer_frame;
     
-    // Big time display (left side, stacked)
-    lv_obj_t *lbl_hour;           // "09" - huge green
-    lv_obj_t *lbl_min;            // "40" - huge green
+    // Timer display inside frame
+    lv_obj_t *lbl_timer_hhmm;      // "00:00" big cyan
+    lv_obj_t *lbl_timer_ss;        // "00" small cyan (seconds)
     
-    // Stats panels (right side)
-    lv_obj_t *panel_steps;
-    lv_obj_t *lbl_steps_value;    // "10349"
-    lv_obj_t *lbl_steps_unit;     // "STEP"
+    // Today total
+    lv_obj_t *lbl_today;           // "Today: 2:13:10" yellow
     
-    lv_obj_t *panel_kcal;
-    lv_obj_t *lbl_kcal_value;     // "103.4"
-    lv_obj_t *lbl_kcal_unit;      // "KCAL"
-    
-    lv_obj_t *panel_km;
-    lv_obj_t *lbl_km_value;       // "103.4"
-    lv_obj_t *lbl_km_unit;        // "KM"
-    
-    // Battery (bottom left)
-    lv_obj_t *lbl_battery;        // "100%"
+    // Activity button
+    lv_obj_t *btn_activity;
+    lv_obj_t *lbl_activity;        // "Reading"
 } ui_handle_t;
 
 /*===========================================================================
  * UI Functions
  *===========================================================================*/
-
-/**
- * @brief Initialize UI (styles + create screens)
- */
 void ui_init(void);
-
-/**
- * @brief Get UI handle (for internal use)
- */
 ui_handle_t* ui_get_handle(void);
 
 /*===========================================================================
- * Styles (ui_styles.c)
+ * Styles
  *===========================================================================*/
-
-/**
- * @brief Initialize all styles
- */
 void ui_styles_init(void);
 
-// Style getters
 lv_style_t* ui_style_bg(void);
-lv_style_t* ui_style_time_big(void);      // Huge green digits
-lv_style_t* ui_style_date(void);          // Date at top
-lv_style_t* ui_style_stat_panel(void);    // Dark rounded panel
-lv_style_t* ui_style_stat_value(void);    // White stat numbers
-lv_style_t* ui_style_stat_unit(void);     // Gray unit labels
-lv_style_t* ui_style_battery(void);       // Cyan battery text
+lv_style_t* ui_style_timer_frame(void);
+lv_style_t* ui_style_timer_text(void);
+lv_style_t* ui_style_timer_seconds(void);
+lv_style_t* ui_style_today_text(void);
+lv_style_t* ui_style_activity_btn(void);
+lv_style_t* ui_style_activity_text(void);
 
 /*===========================================================================
- * Create (ui_create.c)
+ * Create / Bindings / Events
  *===========================================================================*/
-
-/**
- * @brief Create home screen layout
- */
 void ui_create_home(ui_handle_t *ui);
-
-/*===========================================================================
- * Bindings (ui_bindings.c)
- *===========================================================================*/
-
-/**
- * @brief Bind state to home screen
- */
 void ui_bind_home(const app_state_t *state);
-
-/*===========================================================================
- * Events (ui_events.c)
- *===========================================================================*/
-
-/**
- * @brief Setup event handlers
- */
 void ui_events_init(ui_handle_t *ui);

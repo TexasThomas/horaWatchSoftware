@@ -1,26 +1,28 @@
 #pragma once
 
 #include "app_state.h"
-#include <stdint.h>
 
 /**
  * @brief Initialize the application
- * 
- * Creates UI, initializes state, sets up bindings.
  */
 void app_init(void);
 
 /**
- * @brief Get pointer to app state (for UI bindings)
+ * @brief Get pointer to app state
  */
 app_state_t* app_get_state(void);
 
 /**
- * @brief Update time display
+ * @brief Update timer display
  */
-void app_update_time(const char *hour, const char *min);
+void app_update_timer(const char *hhmm, const char *ss);
 
 /**
- * @brief Update fitness stats
+ * @brief Update today total
  */
-void app_update_stats(uint32_t steps, float kcal, float km);
+void app_update_today(const char *total);
+
+/**
+ * @brief Set activity name
+ */
+void app_set_activity(const char *name);

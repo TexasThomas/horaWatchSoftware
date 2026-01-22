@@ -19,18 +19,11 @@ ui_handle_t* ui_get_handle(void)
 
 void ui_init(void)
 {
-    ESP_LOGI(TAG, "Initializing UI (240x280, RGB565)");
+    ESP_LOGI(TAG, "Initializing UI (240x280)");
     
-    // Initialize styles first
     ui_styles_init();
-    
-    // Create home screen
     ui_create_home(&s_ui);
-    
-    // Setup event handlers
     ui_events_init(&s_ui);
-    
-    // Load home screen
     lv_screen_load(s_ui.scr_home);
     
     ESP_LOGI(TAG, "UI initialization complete");
@@ -39,112 +32,66 @@ void ui_init(void)
 /*===========================================================================
  * Home Screen Creation
  * 
- * Layout (240x280) - Like reference image:
+ * Layout (240x280) - Exact match to reference image:
  * 
  *   ┌────────────────────────────────────┐
- *   │          04-06           ← Date    │
- *   │                         ┌────────┐ │
- *   │   09                    │ 10349  │ │  Steps
- *   │                         │  STEP  │ │
- *   │                         ├────────┤ │
- *   │                         │ 103.4  │ │  Kcal
- *   │   40                    │  KCAL  │ │
- *   │                         ├────────┤ │
- *   │                         │ 103.4  │ │  KM
- *   │                         │   KM   │ │
- *   │                         └────────┘ │
- *   │  ⚡ 100%                            │
+ *   │                                    │
+ *   │   ┌──────────────────────────┐     │
+ *   │   │    00:00          00     │     │  Cyan frame + timer
+ *   │   └──────────────────────────┘     │
+ *   │                                    │
+ *   │         Today: 2:13:10             │  Yellow text
+ *   │                                    │
+ *   │          [ Reading ]               │  Yellow button
+ *   │                                    │
  *   └────────────────────────────────────┘
  * 
  *===========================================================================*/
 
 void ui_create_home(ui_handle_t *ui)
 {
-    // Create home screen with pure black background
+    // Create home screen
     ui->scr_home = lv_obj_create(NULL);
     lv_obj_add_style(ui->scr_home, ui_style_bg(), 0);
     lv_obj_set_size(ui->scr_home, 240, 280);
     lv_obj_remove_flag(ui->scr_home, LV_OBJ_FLAG_SCROLLABLE);
     
-    // ===== Date (top center) =====
-    ui->lbl_date = lv_label_create(ui->scr_home);
-    lv_obj_add_style(ui->lbl_date, ui_style_date(), 0);
-    lv_label_set_text(ui->lbl_date, "04-06");
-    lv_obj_align(ui->lbl_date, LV_ALIGN_TOP_MID, -20, 12);
+    // ===== Timer Frame (cyan border box) =====
+    ui->timer_frame = lv_obj_create(ui->scr_home);
+    lv_obj_add_style(ui->timer_frame, ui_style_timer_frame(), 0);
+    lv_obj_set_size(ui->timer_frame, 210, 75);
+    lv_obj_align(ui->timer_frame, LV_ALIGN_TOP_MID, 0, 35);
+    lv_obj_remove_flag(ui->timer_frame, LV_OBJ_FLAG_SCROLLABLE);
     
-    // ===== Big Time - HOURS (left side, top) =====
-    ui->lbl_hour = lv_label_create(ui->scr_home);
-    lv_obj_add_style(ui->lbl_hour, ui_style_time_big(), 0);
-    lv_label_set_text(ui->lbl_hour, "09");
-    lv_obj_set_pos(ui->lbl_hour, 16, 45);
-    // Make it even bigger with custom font size
-    lv_obj_set_style_text_font(ui->lbl_hour, &lv_font_montserrat_48, 0);
+    // ===== Timer HH:MM (big cyan text inside frame) =====
+    ui->lbl_timer_hhmm = lv_label_create(ui->timer_frame);
+    lv_obj_add_style(ui->lbl_timer_hhmm, ui_style_timer_text(), 0);
+    lv_label_set_text(ui->lbl_timer_hhmm, "00:00");
+    lv_obj_align(ui->lbl_timer_hhmm, LV_ALIGN_LEFT_MID, 10, 0);
     
-    // ===== Big Time - MINUTES (left side, below hours) =====
-    ui->lbl_min = lv_label_create(ui->scr_home);
-    lv_obj_add_style(ui->lbl_min, ui_style_time_big(), 0);
-    lv_label_set_text(ui->lbl_min, "40");
-    lv_obj_set_pos(ui->lbl_min, 16, 135);
-    lv_obj_set_style_text_font(ui->lbl_min, &lv_font_montserrat_48, 0);
+    // ===== Timer Seconds (small cyan, subscript position) =====
+    ui->lbl_timer_ss = lv_label_create(ui->timer_frame);
+    lv_obj_add_style(ui->lbl_timer_ss, ui_style_timer_seconds(), 0);
+    lv_label_set_text(ui->lbl_timer_ss, "00");
+    lv_obj_align(ui->lbl_timer_ss, LV_ALIGN_RIGHT_MID, -12, 8);
     
-    // ===== Stats Panels (right side) =====
+    // ===== Today Total (yellow text) =====
+    ui->lbl_today = lv_label_create(ui->scr_home);
+    lv_obj_add_style(ui->lbl_today, ui_style_today_text(), 0);
+    lv_label_set_text(ui->lbl_today, "Today: 2:13:10");
+    lv_obj_align(ui->lbl_today, LV_ALIGN_CENTER, 0, 10);
     
-    // --- Steps Panel ---
-    ui->panel_steps = lv_obj_create(ui->scr_home);
-    lv_obj_add_style(ui->panel_steps, ui_style_stat_panel(), 0);
-    lv_obj_set_size(ui->panel_steps, 85, 55);
-    lv_obj_set_pos(ui->panel_steps, 145, 40);
-    lv_obj_remove_flag(ui->panel_steps, LV_OBJ_FLAG_SCROLLABLE);
+    // ===== Activity Button =====
+    ui->btn_activity = lv_button_create(ui->scr_home);
+    lv_obj_add_style(ui->btn_activity, ui_style_activity_btn(), 0);
+    lv_obj_set_size(ui->btn_activity, 140, 48);
+    lv_obj_align(ui->btn_activity, LV_ALIGN_BOTTOM_MID, 0, -40);
     
-    ui->lbl_steps_value = lv_label_create(ui->panel_steps);
-    lv_obj_add_style(ui->lbl_steps_value, ui_style_stat_value(), 0);
-    lv_label_set_text(ui->lbl_steps_value, "10349");
-    lv_obj_align(ui->lbl_steps_value, LV_ALIGN_CENTER, 0, -6);
+    // Activity label inside button
+    ui->lbl_activity = lv_label_create(ui->btn_activity);
+    lv_obj_add_style(ui->lbl_activity, ui_style_activity_text(), 0);
+    lv_label_set_text(ui->lbl_activity, "Reading");
+    lv_obj_center(ui->lbl_activity);
     
-    ui->lbl_steps_unit = lv_label_create(ui->panel_steps);
-    lv_obj_add_style(ui->lbl_steps_unit, ui_style_stat_unit(), 0);
-    lv_label_set_text(ui->lbl_steps_unit, "STEP");
-    lv_obj_align(ui->lbl_steps_unit, LV_ALIGN_CENTER, 0, 12);
-    
-    // --- Kcal Panel ---
-    ui->panel_kcal = lv_obj_create(ui->scr_home);
-    lv_obj_add_style(ui->panel_kcal, ui_style_stat_panel(), 0);
-    lv_obj_set_size(ui->panel_kcal, 85, 55);
-    lv_obj_set_pos(ui->panel_kcal, 145, 105);
-    lv_obj_remove_flag(ui->panel_kcal, LV_OBJ_FLAG_SCROLLABLE);
-    
-    ui->lbl_kcal_value = lv_label_create(ui->panel_kcal);
-    lv_obj_add_style(ui->lbl_kcal_value, ui_style_stat_value(), 0);
-    lv_label_set_text(ui->lbl_kcal_value, "103.4");
-    lv_obj_align(ui->lbl_kcal_value, LV_ALIGN_CENTER, 0, -6);
-    
-    ui->lbl_kcal_unit = lv_label_create(ui->panel_kcal);
-    lv_obj_add_style(ui->lbl_kcal_unit, ui_style_stat_unit(), 0);
-    lv_label_set_text(ui->lbl_kcal_unit, "KCAL");
-    lv_obj_align(ui->lbl_kcal_unit, LV_ALIGN_CENTER, 0, 12);
-    
-    // --- KM Panel ---
-    ui->panel_km = lv_obj_create(ui->scr_home);
-    lv_obj_add_style(ui->panel_km, ui_style_stat_panel(), 0);
-    lv_obj_set_size(ui->panel_km, 85, 55);
-    lv_obj_set_pos(ui->panel_km, 145, 170);
-    lv_obj_remove_flag(ui->panel_km, LV_OBJ_FLAG_SCROLLABLE);
-    
-    ui->lbl_km_value = lv_label_create(ui->panel_km);
-    lv_obj_add_style(ui->lbl_km_value, ui_style_stat_value(), 0);
-    lv_label_set_text(ui->lbl_km_value, "103.4");
-    lv_obj_align(ui->lbl_km_value, LV_ALIGN_CENTER, 0, -6);
-    
-    ui->lbl_km_unit = lv_label_create(ui->panel_km);
-    lv_obj_add_style(ui->lbl_km_unit, ui_style_stat_unit(), 0);
-    lv_label_set_text(ui->lbl_km_unit, "KM");
-    lv_obj_align(ui->lbl_km_unit, LV_ALIGN_CENTER, 0, 12);
-    
-    // ===== Battery (bottom left) =====
-    ui->lbl_battery = lv_label_create(ui->scr_home);
-    lv_obj_add_style(ui->lbl_battery, ui_style_battery(), 0);
-    lv_label_set_text(ui->lbl_battery, LV_SYMBOL_CHARGE " 100%");
-    lv_obj_set_pos(ui->lbl_battery, 16, 245);
-    
-    ESP_LOGI(TAG, "Home screen created - smartwatch style");
+    ESP_LOGI(TAG, "Home screen created - timer style");
 }

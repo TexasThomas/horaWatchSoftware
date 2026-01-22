@@ -3,17 +3,17 @@
 
 void app_state_init(app_state_t *state)
 {
-    // Date/Time
-    strcpy(state->date_str, "04-06");
-    strcpy(state->hour_str, "09");
-    strcpy(state->min_str, "40");
+    // Timer display
+    strcpy(state->timer_hhmm, "00:00");
+    strcpy(state->timer_ss, "00");
     
-    // Fitness stats (demo values like in image)
-    state->steps = 10349;
-    state->kcal = 103.4f;
-    state->km = 103.4f;
+    // Today total (as shown in image)
+    strcpy(state->today_total, "2:13:10");
     
-    // Device status
+    // Activity
+    strcpy(state->activity_name, "Reading");
+    
+    // State
+    state->is_running = false;
     state->battery_pct = 100;
-    state->is_connected = false;
 }
