@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/Users/markgrun/Watch18.1/horaWatchSoftware/.git/HEAD"
-  "/Users/markgrun/Watch18.1/horaWatchSoftware/.git/refs/heads/aktuell"
+  "/Users/markgrun/Watch18.1/horaWatchSoftware/.git/refs/heads/TimerBild"
   "/Users/markgrun/Watch18.1/horaWatchSoftware/CMakeLists.txt"
   "CMakeFiles/4.2.1/CMakeASMCompiler.cmake"
   "CMakeFiles/4.2.1/CMakeCCompiler.cmake"

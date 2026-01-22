@@ -2132,8 +2132,8 @@ CMakeFiles/refresh-config.dir/clean:
 # Target rules for target CMakeFiles/flash.dir
 
 # All Build rule for target.
-CMakeFiles/flash.dir/all: CMakeFiles/app.dir/all
 CMakeFiles/flash.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
+CMakeFiles/flash.dir/all: CMakeFiles/app.dir/all
 CMakeFiles/flash.dir/all: CMakeFiles/bootloader.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/build
@@ -2152,8 +2152,8 @@ flash: CMakeFiles/flash.dir/rule
 .PHONY : flash
 
 # codegen rule for target.
-CMakeFiles/flash.dir/codegen: CMakeFiles/app.dir/all
 CMakeFiles/flash.dir/codegen: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
+CMakeFiles/flash.dir/codegen: CMakeFiles/app.dir/all
 CMakeFiles/flash.dir/codegen: CMakeFiles/bootloader.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target flash"
@@ -2789,8 +2789,8 @@ CMakeFiles/monitor.dir/clean:
 # Target rules for target CMakeFiles/app_check_size.dir
 
 # All Build rule for target.
-CMakeFiles/app_check_size.dir/all: CMakeFiles/gen_project_binary.dir/all
 CMakeFiles/app_check_size.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
+CMakeFiles/app_check_size.dir/all: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_check_size.dir/build.make CMakeFiles/app_check_size.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_check_size.dir/build.make CMakeFiles/app_check_size.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Built target app_check_size"
@@ -2808,8 +2808,8 @@ app_check_size: CMakeFiles/app_check_size.dir/rule
 .PHONY : app_check_size
 
 # codegen rule for target.
-CMakeFiles/app_check_size.dir/codegen: CMakeFiles/gen_project_binary.dir/all
 CMakeFiles/app_check_size.dir/codegen: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
+CMakeFiles/app_check_size.dir/codegen: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_check_size.dir/build.make CMakeFiles/app_check_size.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num= "Finished codegen for target app_check_size"
 .PHONY : CMakeFiles/app_check_size.dir/codegen
@@ -4839,9 +4839,9 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/clean:
 # Target rules for target esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir
 
 # All Build rule for target.
+esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/all
 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/all
-esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markgrun/Watch18.1/horaWatchSoftware/build/CMakeFiles --progress-num=20 "Built target __idf_esp_timer"
